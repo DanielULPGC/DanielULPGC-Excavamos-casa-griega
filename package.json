@@ -1,0 +1,8 @@
+{
+  "name": "excavamos-casa-griega",
+  "private": true,
+  "description": "Dependencias solo para las pruebas (no se usan en el recurso publicado).",
+  "devDependencies": {
+    "axe-core": "4.10.3"
+  }
+}

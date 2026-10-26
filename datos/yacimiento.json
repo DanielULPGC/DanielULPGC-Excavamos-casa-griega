@@ -1,0 +1,3466 @@
+{
+ "formato": "yacimiento-didactico/1",
+ "meta": {
+  "titulo": "Excavamos una casa griega",
+  "version": "6.0",
+  "yacimientoFicticio": true,
+  "inspiradoEn": [
+   "Casas griegas de Olinto (siglo IV a. C.)",
+   "Secuencia griega y romana de Paestum"
+  ],
+  "escala": "1 unidad = 0,5 m",
+  "licencia": "CC BY-NC 4.0",
+  "aviso": "Contenido didáctico. Para crear otro yacimiento, edita este bloque y comprueba la consola: el validador lista los problemas."
+ },
+ "textos": {
+  "es": {
+   "title": "Excavamos una casa griega",
+   "subtitle": "Una maqueta para descubrir cómo trabajan los arqueólogos",
+   "ideasBtn": "Ideas de cómo pudo ser",
+   "ideasShort": "Ideas",
+   "legFound": "Lo hemos encontrado",
+   "legIdea": "Idea: cómo pudo ser",
+   "legToday": "Herramientas de hoy",
+   "legCut": "Hueco: algo que ya no está",
+   "rotL": "Girar",
+   "rotR": "Girar",
+   "zIn": "Acercar",
+   "zOut": "Alejar",
+   "plan": "Desde arriba",
+   "home": "Vista inicial",
+   "aria": {
+    "left": "Girar a la izquierda",
+    "right": "Girar a la derecha",
+    "in": "Acercar",
+    "out": "Alejar",
+    "top": "Mirar desde arriba, como en un plano",
+    "home": "Volver a la vista inicial",
+    "dock": "Controles de la maqueta",
+    "canvas": "Maqueta 3D de la excavación. Usa las flechas para girar y las teclas más y menos para acercarte.",
+    "measure": "Medir distancias en la maqueta",
+    "secbar": "Elegir la zona de la excavación",
+    "secA": "Zona A: la casa griega",
+    "secB": "Zona B: el muro romano",
+    "secC": "Zona C: el sondeo profundo",
+    "secALL": "Ver el plano del yacimiento"
+   },
+   "noGL": "Tu navegador no puede mostrar la maqueta en 3D. Puedes leer todas las fichas en la lista.",
+   "todayNum": "Hoy",
+   "homeH": "¿Qué estás mirando?",
+   "homeP1": "Es una excavación arqueológica. Hace unos 2400 años (siglo IV a. C.), en la antigua Grecia, aquí había una casa. Hoy solo quedan piedras, trozos de barro cocido y capas de tierra.",
+   "homeP2": "Esta excavación es inventada, pero se parece a casas griegas que los arqueólogos han estudiado de verdad, como las de la ciudad de Olinto. No todas las casas griegas eran iguales: cambiaban según la ciudad, la época y la familia.",
+   "methodNote": "Dos avisos: los nombres de los objetos (ánfora, teja, pesa…) ya son una primera interpretación, porque los ponemos al reconocer la forma. Y los puntos de seguridad son una guía para clase, no una medida científica: indican cuánto confiamos en la idea principal de cada ficha.",
+   "howH": "Cómo explorar",
+   "how": [
+    "Arrastra para girar la maqueta.",
+    "Usa la rueda del ratón o dos dedos para acercarte.",
+    "Toca una etiqueta amarilla para leer su ficha.",
+    "Con el teclado: flechas para girar, + y − para acercar."
+   ],
+   "readH": "Cómo leer una ficha",
+   "see": "Lo que vemos",
+   "seeD": "Lo que está ahí y cualquiera puede comprobar: forma, color, tamaño y lugar.",
+   "think": "Lo que pensamos",
+   "thinkD": "Lo que los arqueólogos creen que significa. Puede cambiar si aparecen pistas nuevas.",
+   "idea": "Idea de cómo pudo ser",
+   "ideaD": "Se dibuja en azul transparente. No lo hemos encontrado: es una reconstrucción.",
+   "treasureH": "¿Buscan tesoros?",
+   "treasure": "No. Buscan pistas. Casi todo lo que aparece son cosas de la vida diaria: trozos de ollas, restos de comida, piedras. Un trozo de olla puede contar más cosas que una joya.",
+   "findsH": "Hallazgos",
+   "moreH": "Más para explorar",
+   "scale": "Los objetos pequeños se han dibujado algo más grandes para que se vean bien. La barra blanca y negra del suelo mide 1 metro.",
+   "credit": "Maqueta didáctica con una excavación imaginaria. Facultad de Ciencias de la Educación, ULPGC. Licencia CC BY-NC 4.0.",
+   "back": "Volver a la lista",
+   "next": "Siguiente",
+   "showIdea": "Ver la idea en la maqueta",
+   "hideIdea": "Ocultar las ideas",
+   "confH": "¿Estamos seguros?",
+   "conf": [
+    "Todavía no lo sabemos",
+    "Es solo una posibilidad",
+    "Es bastante probable",
+    "Estamos muy seguros"
+   ],
+   "todayH": "Esto no es antiguo",
+   "findKick": "Hallazgo",
+   "zoneKick": "Zona",
+   "strataKick": "Pared de tierra",
+   "todayKick": "Material de excavación",
+   "cutKick": "Hueco o corte",
+   "dig": "Quitar una tanda de tierra",
+   "refill": "Volver a tapar",
+   "stepOf": "Tanda {n} de 3",
+   "digDone": "Zona terminada",
+   "digSteps": [
+    "Aquí aún queda tierra de la capa de derrumbe. Cuando una capa es gruesa, a veces se quita en tandas de unos 15 cm para anotar a qué altura aparece cada cosa. Nadie sabe qué hay debajo.",
+    "Has quitado una tanda. Solo hay tierra y trocitos de barro. Lo anotamos: sin hallazgos nuevos. ¡También es un dato!",
+    "Aparece un trozo pequeño de teja. Lo medimos, le hacemos una foto y lo guardamos en una bolsa con su etiqueta.",
+    "Has llegado al suelo de la casa. Aquí no hay más objetos. Se dibuja todo y se pasa a otra zona."
+   ],
+   "strataIntro": "Las capas de tierra son como un montón de hojas de papel: normalmente, lo que está abajo es más antiguo que lo de arriba. Pero hay excepciones: si alguien cavó un hoyo, las cosas pueden mezclarse. Toca una capa en la pared de la maqueta o en esta lista.",
+   "layersH": "De arriba abajo",
+   "finds": {
+    "cimientos": {
+     "name": "Cimientos de piedra",
+     "see": "Hileras de piedras colocadas en línea. Forman una esquina y dejan un hueco. En un tramo faltan piedras.",
+     "think": "Son la parte de abajo de las paredes de una casa. El hueco pudo ser una puerta. Las piedras que faltan quizá se las llevó alguien para construir otra cosa.",
+     "idea": "Encima de las piedras había paredes de adobe: ladrillos de barro y paja secados al sol. No las hemos encontrado porque el adobe se conserva mal: cuando el tejado se hunde y la lluvia lo moja, se deshace. La altura que ves (unos 2 metros) es una suposición: algunas casas de este tipo tenían un piso superior y eran más altas."
+    },
+    "hogar": {
+     "name": "Hogar",
+     "see": "Una mancha negra de ceniza y carbón rodeada de piedras. La tierra de alrededor está rojiza, como quemada.",
+     "think": "Aquí se encendía fuego. Quizá servía para cocinar o para calentarse."
+    },
+    "anfora": {
+     "name": "Trozos de ánfora",
+     "see": "Seis trozos de barro cocido, anaranjados, gruesos y curvos. Uno tiene un asa y otro termina en punta.",
+     "think": "Si los unimos como un puzle, forman una vasija grande con dos asas: un ánfora. Servía para guardar o transportar aceite, vino u otros alimentos. No sabemos qué guardaba esta; en un laboratorio podrían buscar restos en el barro.",
+     "idea": "Así pudo ser un ánfora entera. Es un dibujo aproximado de una forma típica: con seis trozos no se puede saber el perfil exacto. Para averiguarlo, los arqueólogos comparan los trozos con ánforas completas de museos.",
+     "note": "No es un tesoro: era un recipiente de todos los días, como hoy una garrafa."
+    },
+    "copa": {
+     "name": "Trozo de copa negra",
+     "see": "Un trozo pequeño y fino. Es negro y brilla, por fuera y por dentro.",
+     "think": "Parece parte de una copa para beber. Este barniz negro y brillante (una capa muy fina de arcilla cocida) era típico de la vajilla griega. Nos ayuda a saber de qué época es la casa.",
+     "idea": "Una copa ancha y baja, con dos asas y un pie. Es una propuesta: con un solo trozo, hay otras formas posibles.",
+     "note": "Es valiosa para aprender, aunque no valga dinero."
+    },
+    "olla": {
+     "name": "Trozos de olla",
+     "see": "Trozos de barro oscuro y áspero, con manchas negras de hollín. Están cerca del hogar.",
+     "think": "Pudo ser una olla para cocinar. El hollín suele aparecer cuando un recipiente se pone al fuego.",
+     "idea": "Una olla sobre el fuego del hogar. Es una forma probable, no segura."
+    },
+    "tejas": {
+     "name": "Tejas rotas",
+     "see": "Trozos planos y grandes de barro cocido, rotos. Aparecen en el suelo y dentro de la capa rojiza de la pared.",
+     "think": "Eran tejas del tejado. Cuando la casa se abandonó, el tejado se hundió y las tejas cayeron."
+    },
+    "pesas": {
+     "name": "Pesas de telar",
+     "see": "Dos piezas de barro cocido con forma de pirámide. Cada una tiene un agujero en la parte de arriba.",
+     "think": "Se colgaban de los hilos de un telar para mantenerlos tensos. Quizá alguien tejía aquí… o solo las guardaba. Con dos piezas no podemos saberlo.",
+     "idea": "Un telar de pie apoyado en la pared, con las pesas colgando. Es solo una posibilidad."
+    },
+    "huesos": {
+     "name": "Posibles restos de comida",
+     "see": "Un hueso pequeño y roto y cuatro huesos de aceituna.",
+     "think": "Pueden ser restos de comidas. Si aparecen muchos y de varios tipos, nos ayudan a saber qué se comía. Los huesos de aceituna también pudieron usarse como combustible para el fuego. Una persona especialista intenta saber de qué animal es el hueso; con un trozo pequeño, muchas veces solo puede decir «oveja o cabra».",
+     "note": "Para los arqueólogos, la basura de antes es una pista muy importante."
+    },
+    "capas": {
+     "name": "Capas de tierra"
+    },
+    "porExcavar": {
+     "name": "Zona por excavar",
+     "see": "Un cuadrado marcado con estacas y cuerdas. La tierra está sin tocar.",
+     "think": "Todavía no lo sabemos. Los arqueólogos excavan despacio, capa a capa, y dibujan y fotografían todo antes de seguir. Muchas veces no aparece nada especial, y eso también es información."
+    },
+    "herramientas": {
+     "name": "Herramientas de hoy",
+     "see": "Un capazo de goma negro, un paletín y una barra de escala blanca y negra.",
+     "think": "Son de los arqueólogos, no de la casa griega. Con el paletín se rasca la tierra poco a poco; con el capazo se saca la tierra; la escala sirve para que las fotos muestren el tamaño real."
+    },
+    "b_muro": {
+     "name": "Muro romano",
+     "see": "Dos caras de piedras pequeñas con una masa gris y dura entre ellas. En un tramo hay tres bloques mucho mayores y de otro color.",
+     "think": "Es un muro construido con mortero, una técnica romana. Los bloques grandes parecen del tipo de piedra de la casa griega: seguramente se reaprovecharon.",
+     "idea": "Así pudo ser el muro completo, con su alzado. Solo conservamos la parte de abajo."
+    },
+    "b_trinchera": {
+     "name": "Trinchera de expolio",
+     "see": "Una franja larga y estrecha de tierra distinta, con cascotes sueltos, algo hundida respecto al suelo. En el corte del frente se ve que atraviesa el suelo de mortero, el relleno y el nivel griego, y que está llena de piedras.",
+     "think": "Aquí hubo un muro que ya no está: alguien sacó las piedras para reutilizarlas. Queda el hueco, relleno después. Los arqueólogos lo llaman trinchera de expolio o «muro fantasma»: se puede dibujar el plano del edificio aunque falten las piedras. El derrumbe romano que hay encima la cubre: por eso la zanja es posterior al suelo y anterior al derrumbe.",
+     "idea": "Así pudo ser el muro que faltaba, dibujado siguiendo la forma de la zanja.",
+     "note": "Como la zanja corta otras capas, es posterior a ellas. Cortar es una pista de orden."
+    },
+    "b_sigillata": {
+     "name": "Terra sigillata",
+     "see": "Trozos de barro rojo con la superficie lisa y brillante. Uno es un fondo con unas letras marcadas.",
+     "think": "Es vajilla fina romana. Las letras son el sello de un alfarero o su taller. Como estas vasijas se fabricaron en fechas conocidas, ayudan a datar la capa.",
+     "note": "Se hacía en grandes cantidades: era vajilla corriente, no un objeto de lujo."
+    },
+    "b_tegula": {
+     "name": "Tejas romanas",
+     "see": "Trozos planos con un reborde levantado en los lados y un trozo curvo, como media caña.",
+     "think": "Son dos piezas que funcionaban juntas: la plana (tégula) y la curva (ímbrice), que tapaba la unión. Es una forma de cubrir tejados distinta de las tejas de la casa griega."
+    },
+    "b_moneda": {
+     "name": "Moneda de bronce",
+     "see": "Un disco pequeño de metal verdoso, muy gastado. Casi no se ve el dibujo.",
+     "think": "Si se limpia con cuidado, puede leerse de qué emperador es. Entonces sabremos que la capa no se formó antes de esa fecha. Cuidado: las monedas se usaban muchos años, así que la capa puede ser bastante posterior.",
+     "note": "No vale mucho dinero. Vale porque ayuda a poner fecha."
+    },
+    "b_hoyo": {
+     "name": "Hoyo moderno",
+     "see": "Un agujero redondo que atraviesa varias capas. Dentro, tierra revuelta y un trozo de plástico azul.",
+     "think": "Lo hizo alguien hace poco, quizá para plantar un árbol. Es importante: en este hoyo hay cosas nuevas debajo de capas antiguas. La regla de las capas falla cuando algo corta el terreno.",
+     "note": "Por eso los arqueólogos dibujan los bordes de cada hoyo o zanja."
+    },
+    "b_sondeo": {
+     "name": "Sondeo bajo el suelo romano",
+     "see": "Un hueco cuadrado y pequeño abierto en el suelo de mortero. Al fondo se ve tierra más oscura y un trozo negro brillante.",
+     "think": "Se ha excavado una ventana pequeña para ver qué hay debajo sin destruir el suelo romano. Debajo aparece el nivel griego: la misma época que la zona A.",
+     "note": "Excavar es destruir: por eso a veces se deja una parte sin tocar para el futuro."
+    },
+    "b_capas": {
+     "name": "Capas de la zona B"
+    },
+    "c_muro": {
+     "name": "Muro más antiguo",
+     "see": "Una hilera de piedras que no sigue la misma dirección que las de la zona A. Está por debajo del nivel griego.",
+     "think": "Es parte de una construcción anterior a la casa griega. Que la orientación sea distinta sugiere que se construyó en otro momento, con otro plan.",
+     "idea": "Una construcción anterior, dibujada solo con la parte que conocemos. No sabemos su tamaño ni su forma."
+    },
+    "c_cer": {
+     "name": "Cerámica a mano",
+     "see": "Trozos gruesos, oscuros y algo irregulares. Las paredes no tienen el mismo grosor en todas partes.",
+     "think": "Parece cerámica hecha a mano, sin torno. Suele ser más antigua que la cerámica de la casa griega, o de gente que fabricaba de otra manera."
+    },
+    "c_carbon": {
+     "name": "Muestra de carbón",
+     "see": "Trocitos negros y ligeros, con una banderita marcada «C-14».",
+     "think": "Es carbón de un fuego antiguo. Como estuvo vivo, puede datarse con carbono 14 en un laboratorio. La fecha llega con un margen: no es un día exacto, sino un intervalo.",
+     "note": "Se coge con cuidado y con guantes, para no contaminar la muestra."
+    },
+    "c_fin": {
+     "name": "Hasta aquí se excava",
+     "see": "Un círculo marcado en el fondo del sondeo, sobre tierra clara y dura.",
+     "think": "Debajo ya no hay objetos hechos por personas: es el terreno natural. Cuando se llega ahí, se para, se dibuja todo y se anota la profundidad."
+    },
+    "c_capas": {
+     "name": "Capas de la zona C"
+    }
+   },
+   "layers": {
+    "vegetal": {
+     "name": "Tierra vegetal",
+     "see": "Tierra oscura con raíces y hierba encima.",
+     "think": "Es la capa más reciente. Hoy crecen plantas en ella."
+    },
+    "acumulada": {
+     "name": "Tierra acumulada",
+     "see": "Tierra marrón, con muy pocos objetos.",
+     "think": "Durante siglos, el viento y la lluvia fueron trayendo tierra y tapando la casa abandonada."
+    },
+    "derrumbe": {
+     "name": "Capa de derrumbe",
+     "see": "Tierra rojiza con trozos de teja y de barro.",
+     "think": "Son los restos de las paredes de adobe y del tejado, que se cayeron."
+    },
+    "suelo": {
+     "name": "Suelo de la casa",
+     "see": "Una capa fina, dura y aplanada.",
+     "think": "Es el suelo por donde caminaba la familia. Lo que está encima es de cuando se usaba la casa."
+    },
+    "natural": {
+     "name": "Terreno natural",
+     "see": "Tierra clara y dura, sin objetos hechos por personas.",
+     "think": "Es el terreno que había antes de construir la casa."
+    },
+    "b_vegetal": {
+     "name": "Tierra vegetal",
+     "see": "Tierra oscura con raíces.",
+     "think": "La capa de hoy."
+    },
+    "b_arado": {
+     "name": "Tierra de labor",
+     "see": "Tierra marrón y suelta, con trozos pequeños y mezclados.",
+     "think": "La removió el arado durante siglos. Aquí aparecen juntos objetos de épocas distintas."
+    },
+    "b_derrRom": {
+     "name": "Derrumbe romano",
+     "see": "Tierra rojiza con muchos trozos de teja plana con reborde.",
+     "think": "Es el tejado y las paredes del edificio romano, caídos."
+    },
+    "b_sueloRom": {
+     "name": "Suelo de mortero",
+     "see": "Una capa dura y rosada, muy lisa por arriba.",
+     "think": "Es el suelo por donde se caminaba en época romana. Lleva trocitos de teja machacada mezclados con la cal."
+    },
+    "b_relleno": {
+     "name": "Relleno de nivelación",
+     "see": "Tierra mezclada, con piedrecitas y trozos de varias clases.",
+     "think": "La echaron a propósito para aplanar el terreno antes de construir el edificio romano."
+    },
+    "b_griego": {
+     "name": "Nivel griego",
+     "see": "Tierra más oscura, con algún trozo de barniz negro.",
+     "think": "Es la misma época que la casa de la zona A. Aquí solo se ve por una ventana pequeña."
+    },
+    "b_natural": {
+     "name": "Terreno natural",
+     "see": "Tierra clara y dura, sin objetos.",
+     "think": "El terreno anterior a cualquier construcción."
+    },
+    "c_vegetal": {
+     "name": "Tierra vegetal",
+     "see": "Tierra oscura con raíces.",
+     "think": "La capa de hoy."
+    },
+    "c_acum": {
+     "name": "Tierra acumulada",
+     "see": "Tierra marrón, con pocos objetos.",
+     "think": "Se fue depositando poco a poco después del abandono."
+    },
+    "c_griego": {
+     "name": "Nivel griego",
+     "see": "Tierra rojiza con trocitos de teja.",
+     "think": "Corresponde a la casa de la zona A: es la misma época."
+    },
+    "c_arcaico": {
+     "name": "Nivel arcaico",
+     "see": "Tierra oscura con cerámica tosca y carbones.",
+     "think": "Gente que vivió aquí antes de la casa griega. Está debajo, así que es anterior."
+    },
+    "c_natural": {
+     "name": "Terreno natural",
+     "see": "Tierra clara y dura, sin objetos hechos por personas.",
+     "think": "Aquí termina la excavación."
+    }
+   },
+   "tabs": {
+    "explorar": "Explorar",
+    "tiempo": "Tiempo",
+    "cuaderno": "Cuaderno",
+    "epocas": "Épocas",
+    "conjunto": "Conjunto",
+    "retos": "Retos"
+   },
+   "tabsLabel": "Secciones",
+   "measureBtn": "Medir",
+   "measureAria": "Medir distancias en la maqueta",
+   "measureHint": "Toca dos puntos de la maqueta para medir la distancia. Pulsa «Medir» otra vez para terminar.",
+   "howExtra": "En las pestañas Tiempo, Cuaderno y Retos hay más actividades. Con el botón «Medir» puedes medir distancias.",
+   "thinkQ": "Pregunta para pensar",
+   "toNotebook": "Anotar en el cuaderno",
+   "q": {
+    "cimientos": "¿Por qué crees que solo quedan las piedras de abajo y no las paredes?",
+    "hogar": "¿Qué otras pistas buscarías para saber si aquí se cocinaba?",
+    "anfora": "¿Qué prueba podría decirnos qué había dentro del ánfora?",
+    "copa": "¿Cómo puede un trozo roto ayudarnos a saber la época de la casa?",
+    "olla": "La olla está cerca del hogar. ¿Puede ser casualidad? ¿Qué más te convencería?",
+    "tejas": "Las tejas están encima del suelo de la casa. ¿Qué pasó antes: se usó la casa o se cayó el tejado?",
+    "pesas": "¿Cuántas pesas necesitarías encontrar para estar más seguro de que hubo un telar?",
+    "huesos": "¿Qué contaría tu basura de hoy a los arqueólogos del futuro?",
+    "capas": "Si encuentras un objeto en la tierra vegetal y otro en el suelo de la casa, ¿cuál es probablemente más antiguo? ¿Por qué?",
+    "porExcavar": "Si no aparece nada, ¿ha sido una pérdida de tiempo? ¿Por qué?",
+    "herramientas": "¿Por qué los arqueólogos no usan aquí una excavadora grande?"
+   },
+   "method": "Antes de quitar la tanda, regístrala:",
+   "photo": "Hacer una foto",
+   "draw": "Dibujar la tanda",
+   "bag": "Guardar la teja en una bolsa con su etiqueta",
+   "needSteps": "Completa los pasos de registro para poder excavar.",
+   "time": {
+    "h": "Viaje en el tiempo",
+    "intro": "Mira cómo se formaron las capas de la zona A y cómo se excavan después, en tres niveles, de arriba abajo. Pulsa Reproducir, arrastra la línea de tiempo o elige un momento. Esto cuenta solo la historia de la zona A: para ver todas las épocas del yacimiento, abre la pestaña Épocas.",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "play": "Reproducir",
+    "pause": "Pausa",
+    "stepOf": "Momento {n} de 8",
+    "note": "Fíjate: los arqueólogos excavan en el orden contrario a como se formaron las capas. Lo último que se depositó es lo primero que quitan. En el perfil vertical, los tres niveles de excavación bajan de arriba abajo.",
+    "kinds": {
+     "idea": "Reconstrucción: es una idea",
+     "layer": "Lo deducimos de las capas",
+     "dig": "Lo que hacemos al excavar"
+    },
+    "tl": {
+     "aria": "Línea de tiempo de la simulación",
+     "form": "Formación",
+     "dig": "Excavación"
+    },
+    "col": {
+     "title": "Perfil de la excavación",
+     "down": "↓ Se excava de arriba abajo",
+     "levels": "Niveles de excavación",
+     "todo": "por excavar",
+     "active": "excavando",
+     "done": "excavado",
+     "aria": "Perfil vertical de la excavación: {n} de 3 niveles excavados"
+    },
+    "stages": [
+     {
+      "n": "La casa en uso",
+      "t": "Hace unos 2400 años. Una familia vive aquí. La casa tiene paredes de adobe, tejado de tejas y vasijas enteras."
+     },
+     {
+      "n": "La casa abandonada",
+      "t": "La familia se marcha. Algunas cosas se quedan en el suelo y se rompen: ánforas, ollas, una copa… Es solo una posibilidad: otras casas griegas se destruyeron de golpe, por ejemplo en una guerra."
+     },
+     {
+      "n": "El derrumbe",
+      "t": "Nadie arregla la casa. El tejado se hunde y la lluvia deshace las paredes de adobe. Todo queda tapado por una capa rojiza."
+     },
+     {
+      "n": "Pasan los siglos",
+      "t": "El viento y la lluvia traen tierra poco a poco. La casa queda cada vez más enterrada."
+     },
+     {
+      "n": "Hoy, antes de excavar",
+      "t": "Encima crece la hierba. Parece un campo cualquiera: nadie ve la casa. Debajo hay tres capas que los arqueólogos van a quitar en tres niveles."
+     },
+     {
+      "n": "Excavación · nivel 1: tierra vegetal",
+      "t": "Se quita la hierba y la tierra vegetal. Es la capa más nueva, así que es lo primero que sale. Antes de seguir bajando, se dibuja, se fotografía y se anota."
+     },
+     {
+      "n": "Excavación · nivel 2: tierra acumulada",
+      "t": "Debajo hay tierra marrón que el viento y la lluvia fueron trayendo durante siglos. Casi no hay objetos. Se registra y se sigue bajando."
+     },
+     {
+      "n": "Excavación · nivel 3: derrumbe",
+      "t": "Aparece la capa rojiza con trozos de teja: el derrumbe de la casa. Al quitarla queda a la vista el suelo, con las piedras y los objetos rotos. Desde aquí se pueden hacer las preguntas sobre cómo vivían."
+     }
+    ]
+   },
+   "nb": {
+    "h": "Cuaderno de campo",
+    "intro": "Registra los hallazgos como hacen los arqueólogos. Tus notas se guardan solo en este dispositivo y no se envían a nadie.",
+    "progress": "Has registrado {n} de {m} hallazgos.",
+    "mat": "¿De qué material es?",
+    "mats": {
+     "barro": "Barro cocido",
+     "piedra": "Piedra",
+     "hueso": "Hueso y semillas",
+     "ceniza": "Ceniza y carbón",
+     "metal": "Metal"
+    },
+    "use": "¿Para qué pudo servir?",
+    "uses": {
+     "construir": "Para construir",
+     "cocinar": "Para cocinar",
+     "guardar": "Para guardar alimentos",
+     "beber": "Para beber",
+     "tejer": "Para tejer",
+     "comer": "Son restos de comida",
+     "servir": "Para servir la comida",
+     "pagar": "Para comprar cosas",
+     "datar": "Para poner fecha",
+     "nose": "No lo sé todavía"
+    },
+    "sure": "¿Cuánta seguridad tienes?",
+    "sures": [
+     "Poca",
+     "Bastante",
+     "Mucha"
+    ],
+    "obs": "Lo que yo veo, con mis palabras",
+    "save": "Guardar en el cuaderno",
+    "back": "Volver al cuaderno",
+    "nextPending": "Siguiente sin registrar",
+    "matOk": "Material: ✓ correcto. El material es una evidencia: se puede comprobar mirando.",
+    "matNo": "Material: ✗ revisa la ficha, en «Lo que vemos». El material se puede comprobar.",
+    "useSame": "Uso: coincides con lo que proponen los arqueólogos. Aun así, es una interpretación.",
+    "useNose": "Uso: es una respuesta honesta. Los arqueólogos proponen «{x}».",
+    "useDiff": "Uso: los arqueólogos proponen otra idea, «{x}». ¿Qué pista te hizo pensar lo tuyo? Anótalo.",
+    "copy": "Copiar mi cuaderno",
+    "copied": "Copiado. Puedes pegarlo en un documento.",
+    "copyFail": "No se ha podido copiar automáticamente. Selecciona el texto y cópialo.",
+    "clear": "Borrar mi cuaderno",
+    "clearSure": "Pulsa otra vez para borrarlo todo",
+    "cleared": "Cuaderno borrado.",
+    "done": "Registrado",
+    "pending": "Sin registrar",
+    "need": "Elige al menos el material.",
+    "noStore": "Este navegador no deja guardar: tus notas se perderán al cerrar la página.",
+    "copyHead": "Mi cuaderno de campo",
+    "lMat": "Material",
+    "lUse": "Uso posible",
+    "lSure": "Seguridad",
+    "lObs": "Observación"
+   },
+   "retos": {
+    "h": "Retos",
+    "intro": "Pon a prueba lo que has aprendido. Puedes repetir cada reto las veces que quieras.",
+    "again": "Repetir",
+    "retry": "Probar otra vez",
+    "back": "Volver a los retos",
+    "result": "Resultado: {a} de {b}",
+    "notYet": "Sin hacer",
+    "names": {
+     "vemos": "¿Lo vemos o lo pensamos?",
+     "epoca": "¿De qué época es?",
+     "corr": "Correlaciona las zonas",
+     "orden": "Ordena las capas",
+     "busca": "Busca en la maqueta",
+     "mide": "Mide el hueco"
+    },
+    "desc": {
+     "vemos": "Decide si cada frase es una observación o una interpretación.",
+     "epoca": "Coloca cada hallazgo en su época. Puedes consultar la pestaña Épocas.",
+     "corr": "Decide qué capas de zonas distintas son de la misma época.",
+     "orden": "Coloca las capas de tierra en orden: arriba, la más reciente; abajo, la más antigua.",
+     "busca": "Resuelve misiones tocando objetos en la maqueta.",
+     "mide": "Usa la herramienta de medir para averiguar el ancho del hueco que pudo ser una puerta."
+    },
+    "vemos": {
+     "q": "Esta frase, ¿es algo que vemos o algo que pensamos?",
+     "see": "Lo vemos",
+     "think": "Lo pensamos",
+     "okSee": "✓ ¡Bien! Se puede comprobar mirando o midiendo.",
+     "okThink": "✓ ¡Bien! Es una explicación: razonable, pero podría cambiar con pistas nuevas.",
+     "no": "✗ Fíjate: ¿se puede comprobar mirando, o es una explicación de lo que pasó?",
+     "next": "Siguiente frase",
+     "end": "Has acertado {a} de {b} frases a la primera.",
+     "count": "Frase {n} de {m}",
+     "items": [
+      [
+       "Las piedras forman una esquina.",
+       "s"
+      ],
+      [
+       "Aquí vivía una familia.",
+       "t"
+      ],
+      [
+       "Hay una mancha negra de ceniza.",
+       "s"
+      ],
+      [
+       "En el hogar se cocinaba.",
+       "t"
+      ],
+      [
+       "Un trozo de barro tiene un asa.",
+       "s"
+      ],
+      [
+       "El ánfora guardaba aceite.",
+       "t"
+      ],
+      [
+       "Las pesas tienen un agujero.",
+       "s"
+      ],
+      [
+       "Alguien tejía en esta habitación.",
+       "t"
+      ],
+      [
+       "La capa rojiza tiene trozos de teja.",
+       "s"
+      ],
+      [
+       "El tejado se hundió.",
+       "t"
+      ]
+     ]
+    },
+    "corr": {
+     "count": "Pregunta {n} de {m}",
+     "q": "¿Qué capa de la zona A se formó en la misma época?",
+     "none": "Ninguna: no hay equivalente",
+     "ok": "✓ ¡Bien!",
+     "no": "✗ No es esa.",
+     "end": "Has acertado {a} de {b} a la primera.",
+     "items": {
+      "b_griego": {
+       "why": "Las dos zonas tienen barniz negro y trozos de teja de época griega. En A esa época se ve dividida en suelo y derrumbe: valen las dos."
+      },
+      "c_arcaico": {
+       "why": "En A no hay ningún nivel de esa época. Ojo: que no haya registro no significa que allí no viviera nadie, solo que no se conserva o no se ha llegado hasta ahí."
+      },
+      "b_sueloRom": {
+       "why": "En A no aparece ni suelo de mortero ni vajilla romana. Quizá allí no se construyó, o se arrasó después. No lo sabemos."
+      },
+      "c_acum": {
+       "why": "Es la tierra que fue tapando el lugar tras el abandono: misma época y mismo proceso."
+      },
+      "b_arado": {
+       "why": "Se formó en la misma época que la tierra acumulada de A, pero de otra manera: aquí la movió el arado. Misma época no siempre es mismo proceso."
+      },
+      "b_vegetal": {
+       "why": "Es la superficie de hoy en todas las zonas."
+      },
+      "trap": {
+       "q": "El nivel arcaico de C está a la misma altura que el derrumbe de A. ¿Son de la misma época?",
+       "opts": {
+        "si": "Sí: misma altura, misma época",
+        "no": "No: la altura no dice la época"
+       },
+       "why": "El nivel arcaico es mucho más antiguo. El terreno no está a la misma altura en todas partes y las capas se formaron en momentos distintos."
+      },
+      "rel": {
+       "q": "En la zona B, una zanja corta el suelo de mortero y después la tapa el derrumbe romano. ¿Qué ocurrió antes?",
+       "opts": {
+        "zanja": "La zanja",
+        "derrumbe": "El derrumbe",
+        "igual": "No se puede saber"
+       },
+       "why": "Lo que corta algo es posterior a eso, y lo que lo tapa es posterior a lo tapado. La zanja es posterior al suelo y anterior al derrumbe que la cubre."
+      }
+     }
+    },
+    "epoca": {
+     "q": "¿A qué época pertenece este hallazgo?",
+     "ok": "✓ ¡Sí!",
+     "no": "✗ Es de la época «{x}».",
+     "end": "Has acertado {a} de {b} a la primera.",
+     "why": {
+      "copa": "El barniz negro es típico de la vajilla griega.",
+      "b_sigillata": "La terra sigillata es vajilla romana; el sello ayuda a datarla.",
+      "c_cer": "La cerámica a mano aparece debajo del nivel griego: es anterior.",
+      "b_trinchera": "La zanja corta capas que ya existían, así que se hizo después.",
+      "b_moneda": "La moneda apareció en las capas romanas y ayuda a fecharlas.",
+      "pesas": "Estaban en el suelo de la casa griega.",
+      "b_hoyo": "Tiene plástico dentro: lo hicieron hace muy poco."
+     }
+    },
+    "orden": {
+     "q": "Ordena las capas: arriba, la más reciente; abajo, la más antigua. Usa las flechas. Toca un nombre para verlo en la maqueta.",
+     "top": "Arriba: más reciente",
+     "bottom": "Abajo: más antigua",
+     "up": "Subir",
+     "down": "Bajar",
+     "check": "Comprobar",
+     "ok": "✓ ¡Perfecto! Lo que está abajo se formó antes. Es el principio de superposición.",
+     "no": "Casi. Revisa las capas marcadas con ✗.",
+     "good": "✓ en su sitio",
+     "bad": "✗ fuera de sitio"
+    },
+    "busca": {
+     "intro": "Lee la misión y toca la respuesta en la maqueta o en su etiqueta.",
+     "count": "Misión {n} de {m}",
+     "ok": "✓ ¡Sí!",
+     "no": "✗ Has tocado «{x}». No es eso. Prueba otra vez.",
+     "skip": "Saltar misión",
+     "next": "Siguiente misión",
+     "end": "Misiones resueltas a la primera: {a} de {b}.",
+     "missions": [
+      {
+       "q": "Toca algo que formaba parte de la casa.",
+       "why": "Los cimientos sostenían las paredes y las tejas cubrían el tejado."
+      },
+      {
+       "q": "Toca algo relacionado con la comida.",
+       "why": "El hogar, la olla, el ánfora y los restos de comida tienen que ver con cocinar, guardar o comer."
+      },
+      {
+       "q": "Toca un objeto que ayude a saber la época de la casa.",
+       "why": "La forma y la decoración de la cerámica cambian con el tiempo. La copa de barniz negro es especialmente útil."
+      },
+      {
+       "q": "Toca, en la pared, una capa que se formó después de abandonar la casa.",
+       "why": "El derrumbe, la tierra acumulada y la tierra vegetal están encima del suelo de la casa: se formaron después."
+      },
+      {
+       "q": "Toca algo que NO es antiguo.",
+       "why": "Son herramientas de los arqueólogos de hoy."
+      },
+      {
+       "q": "Toca un lugar donde todavía no sabemos qué hay.",
+       "why": "La zona por excavar aún guarda tierra sin estudiar."
+      }
+     ]
+    },
+    "mide": {
+     "intro": "Activa la herramienta de medir y toca los dos lados del hueco en la fila de piedras, en los cimientos. La barra blanca y negra mide 1 metro.",
+     "hint": "El hueco está en la fila de piedras del fondo. Pudo ser una puerta.",
+     "on": "Activar medir",
+     "off": "Terminar de medir",
+     "last": "Tu última medida: {x}",
+     "q": "¿Cuánto mide de ancho el hueco?",
+     "opts": [
+      "Unos 50 cm",
+      "Algo más de 1 metro",
+      "Unos 3 metros"
+     ],
+     "ok": "✓ ¡Bien medido! Mide algo más de 1 metro. Si fue una puerta, por ahí pasaban personas y cosas; pero es una interpretación.",
+     "no": "✗ Vuelve a medir: toca un lado del hueco y después el otro."
+    }
+   },
+   "secbarLbl": "Cata",
+   "secAll": "Plano",
+   "secKick": "Cata",
+   "secs": {
+    "A": {
+     "name": "Cata A · la casa griega",
+     "per": "griego",
+     "sub": "Aquí apareció la casa del siglo IV a. C."
+    },
+    "B": {
+     "name": "Cata B · el muro romano",
+     "per": "romano",
+     "sub": "Aquí se construyó otra vez, siglos después."
+    },
+    "C": {
+     "name": "Cata C · el sondeo profundo",
+     "per": "arcaico",
+     "sub": "Aquí se excavó más hondo, hasta lo más antiguo."
+    }
+   },
+   "zonesP": "El yacimiento es uno solo, pero los arqueólogos no excavan todo el terreno: abren tres catas (A, B y C) en puntos distintos y comparan lo que sale. Cámbialas con los botones de arriba a la izquierda, o pulsa «Plano» para ver dónde está cada una. Cada cata llega a épocas distintas.",
+   "siteH": "Plano del yacimiento",
+   "siteP": "Un yacimiento, tres catas. Los arqueólogos no excavan todo el terreno: abren zonas pequeñas en varios puntos y comparan lo que aparece en cada una. Aquí las tres están en su sitio, sobre el mismo terreno. Cada cata cuenta una parte distinta de la historia, y solo comparándolas se reconstruye la del yacimiento entero.",
+   "siteTip": "Toca una cata en el plano o en la lista para entrar en ella.",
+   "splan": {
+    "title": "Visto desde arriba",
+    "north": "N",
+    "scale": "5 m",
+    "cuts": "Línea gruesa: pared con el corte",
+    "go": "Ir a la cata {k}: {name}",
+    "note": "Las posiciones y distancias son aproximadas: es un modelo.",
+    "aria": "Plano del yacimiento con las tres catas: C al norte, A en el centro y B al este"
+   },
+   "secOf": "Estás en la {x}",
+   "periods": {
+    "arcaico": {
+     "name": "Antes de la casa",
+     "when": "siglos VII-VI a. C.",
+     "col": "#8a6d4a"
+    },
+    "griego": {
+     "name": "La casa griega",
+     "when": "siglo IV a. C.",
+     "col": "#b0694a"
+    },
+    "romano": {
+     "name": "Reocupación romana",
+     "when": "siglos I-II d. C.",
+     "col": "#c0553f"
+    },
+    "expolio": {
+     "name": "Expolio y abandono",
+     "when": "después del siglo III d. C.",
+     "col": "#7a6a86"
+    },
+    "campo": {
+     "name": "Campo de labor",
+     "when": "siglos posteriores, hasta hoy",
+     "col": "#6f8a4a"
+    },
+    "hoy": {
+     "name": "Hoy: la excavación",
+     "when": "nuestro tiempo",
+     "col": "#4a6e8a"
+    }
+   },
+   "epH": "Épocas del yacimiento",
+   "epIntro": "Un mismo lugar puede tener varias historias, una encima de otra. Aquí van de la más antigua a la más reciente. Toca cada época para leerla.",
+   "epWhere": "Dónde se ve",
+   "epHow": "Cómo lo sabemos",
+   "epGo": "Ir a esa zona",
+   "epTexts": {
+    "arcaico": {
+     "t": "Antes de la casa griega ya vivía gente aquí. Quedan un muro con otra orientación y cerámica hecha a mano, sin torno.",
+     "where": "Zona C, en la capa arcaica, debajo del nivel griego.",
+     "how": "Por la posición: está debajo de todo lo griego, así que es anterior. Y por un trocito de carbón que puede datarse con carbono 14."
+    },
+    "griego": {
+     "t": "Se construye la casa: zócalo de piedra, paredes de adobe y tejado de tejas. Es el momento que se ve mejor en la zona A.",
+     "where": "Zona A entera; también asoma en las zonas B y C.",
+     "how": "Por el tipo de cerámica. El barniz negro de la copa se fabricó en unas fechas conocidas, así que la capa donde aparece no puede ser más antigua."
+    },
+    "romano": {
+     "t": "Siglos después se vuelve a construir en el mismo sitio, con otras costumbres: un muro con mortero, un suelo de mortero rojizo y vajilla roja brillante.",
+     "where": "Zona B, encima del nivel griego.",
+     "how": "Por la terra sigillata, que a veces lleva el sello del alfarero, y por una moneda. Una moneda dice que la capa no puede ser anterior a ella… pero sí bastante posterior, porque las monedas circulan mucho tiempo."
+    },
+    "expolio": {
+     "t": "La casa deja de usarse y alguien se lleva las piedras para construir en otro sitio. Donde estaba el muro queda solo la zanja vacía, rellena de cascotes.",
+     "where": "Zona B: la trinchera de expolio. En la zona A faltan piedras en un tramo del zócalo.",
+     "how": "Por una forma negativa: no vemos el muro, vemos su hueco. La zanja corta capas que ya existían, así que es posterior a ellas."
+    },
+    "campo": {
+     "t": "El lugar se convierte en campo de cultivo. El arado mueve la tierra de arriba y mezcla objetos de varias épocas.",
+     "where": "Zona B, la tierra de labor; y la tierra vegetal de todas las zonas.",
+     "how": "Porque en esa capa aparecen mezclados trozos de épocas distintas. Ahí la regla de «lo de abajo es más antiguo» funciona peor."
+    },
+    "hoy": {
+     "t": "Llegan los arqueólogos, abren zonas, excavan por capas y lo registran todo. Un hoyo moderno con un trozo de plástico recuerda que el suelo se sigue removiendo.",
+     "where": "Las tres zonas, y el hoyo moderno de la zona B.",
+     "how": "Porque lo hemos hecho nosotros: es lo único que vemos ocurrir."
+    }
+   },
+   "epOrder": [
+    "arcaico",
+    "griego",
+    "romano",
+    "expolio",
+    "campo",
+    "hoy"
+   ],
+   "dateH": "¿Cómo se ponen fechas?",
+   "dateWays": [
+    {
+     "n": "Por las capas",
+     "t": "Dice qué es anterior y qué es posterior, pero no da años."
+    },
+    {
+     "n": "Por los objetos",
+     "t": "Algunas cerámicas se fabricaron en fechas conocidas. Si aparecen en una capa, esa capa no puede ser más antigua."
+    },
+    {
+     "n": "Por el carbono 14",
+     "t": "Mide el carbono de restos que estuvieron vivos, como el carbón de un fuego. Da una fecha con un margen, por ejemplo «hacia el 600 a. C., más o menos 40 años»."
+    }
+   ],
+   "conj": {
+    "h": "Estratigrafía de conjunto",
+    "intro": "Cada zona guarda solo un trozo de la historia. Aquí se ponen las tres juntas, de la más antigua (C) a la más reciente (B), para reconstruir el yacimiento entero.",
+    "viewLbl": "Vista",
+    "vCortes": "Cortes",
+    "vEpocas": "Por épocas",
+    "vCortesD": "Los tres cortes lado a lado, con su altura real. Las capas de la misma época comparten color.",
+    "vEpocasD": "La misma información ordenada por tiempo: cada fila es una época y cada columna, una zona.",
+    "phaseLbl": "Época",
+    "prev": "Antes",
+    "next": "Después",
+    "play": "Reproducir",
+    "pause": "Pausa",
+    "corr": "Mostrar correlaciones",
+    "colorEp": "Colorear por época",
+    "scale": "0,5 m",
+    "base": "Terreno natural",
+    "noRec": "sin registro",
+    "short": {
+     "b_relleno": "Relleno"
+    },
+    "hdr": {
+     "C": "Cata C",
+     "A": "Cata A",
+     "B": "Cata B"
+    },
+    "sub": {
+     "C": "sondeo profundo",
+     "A": "casa griega",
+     "B": "muro romano"
+    },
+    "cuts": {
+     "zanja": "zanja",
+     "hoyo": "hoyo"
+    },
+    "sameH": "misma altura",
+    "swipe": "← Desliza el diagrama para ver las tres zonas →",
+    "cutNote": "Las líneas rojas discontinuas son cortes: zanjas y hoyos que atraviesan capas. Lo que corta es más reciente que lo cortado.",
+    "phaseNote": [
+     "Antes de todo solo hay terreno natural. Fíjate en que no está a la misma altura en las tres zonas: la C queda unos 25 cm más alta.",
+     "Gente que vivió aquí antes de la casa deja el nivel arcaico. Solo se conserva en la zona C. En A y B no hay registro, pero eso no quiere decir que allí no viviera nadie.",
+     "Se construye la casa griega. Las tres zonas guardan nivel griego, pero lo cuentan con distinto detalle: en A se distinguen el suelo y el derrumbe.",
+     "Reocupación romana en la zona B: se nivela con relleno y se hace un suelo de mortero. En A y C sigue acumulándose tierra, pero esa capa no distingue lo que ocurre.",
+     "Expolio en B: una zanja corta el suelo romano y se rellena de cascotes; después el derrumbe del edificio la tapa. La zanja es posterior al suelo y anterior al derrumbe.",
+     "El lugar se cultiva. En B el arado forma una capa propia; en A y C sigue siendo la misma tierra acumulada.",
+     "Hoy: la hierba lo tapa todo. Un hoyo moderno en B atraviesa varias capas y mezcla cosas nuevas con otras antiguas."
+    ],
+    "lessonsH": "Tres ideas para llevarse",
+    "lessons": [
+     {
+      "n": "Ninguna zona lo cuenta todo",
+      "t": "La zona A no tiene nada romano, la B no llega a lo arcaico y la C no tiene edificio romano. Solo juntando las tres se reconstruye la historia."
+     },
+     {
+      "n": "Misma altura no es misma época",
+      "t": "El nivel arcaico de C está a la misma altura que el derrumbe de A y es mucho más antiguo. Para comparar zonas hay que mirar qué contienen las capas, no a qué profundidad están."
+     },
+     {
+      "n": "Una capa gruesa puede esconder mucho tiempo",
+      "t": "La tierra acumulada de A es una sola capa que cubre varios siglos. En la zona B, ese mismo tiempo se reparte en cuatro capas distintas."
+     }
+    ],
+    "practice": "Practicar: reto de correlación",
+    "hint": "Toca una capa del diagrama para ver qué la relaciona con las otras zonas.",
+    "selH": "Capa elegida",
+    "selWhere": "Zona",
+    "selPeriod": "Se formó durante",
+    "spans": "Esta capa abarca varias épocas: dentro de ella no se puede separar el tiempo.",
+    "corrH": "Se corresponde con",
+    "corrNone": "No tiene equivalente en las otras zonas: solo se ha encontrado aquí.",
+    "conf": {
+     "alta": "Correlación bastante segura",
+     "media": "Correlación probable",
+     "hip": "Solo una hipótesis"
+    },
+    "view3d": "Ver en la maqueta",
+    "corrWhy": {
+     "gr": "Las dos tienen barniz negro y trozos de teja de época griega, y están encima del terreno natural.",
+     "acum": "Es la tierra que fue tapando el lugar después del abandono. Se formó despacio, durante siglos.",
+     "veg": "Es la superficie de hoy en todas las zonas.",
+     "nat": "Es el terreno anterior a cualquier construcción. Ojo: no está a la misma altura en todas las zonas.",
+     "acumB": "La tierra acumulada de A cubre el mismo tiempo que cuatro capas de B (relleno, suelo romano, derrumbe y tierra de labor). Es solo una hipótesis: dentro de la capa de A no se puede separar el tiempo."
+    },
+    "svgTitle": "Diagrama de estratigrafía de conjunto de las zonas C, A y B"
+   },
+   "digCol": {
+    "title": "Tres tandas",
+    "lvl": "Tanda {n}",
+    "floor": "Suelo",
+    "tile": "teja",
+    "aria": "Perfil vertical de la zona por excavar: {n} de 3 tandas quitadas"
+   }
+  },
+  "en": {
+   "title": "Digging up a Greek house",
+   "subtitle": "A model to discover how archaeologists work",
+   "ideasBtn": "Ideas of how it may have been",
+   "ideasShort": "Ideas",
+   "legFound": "We found this",
+   "legIdea": "Idea: how it may have been",
+   "legToday": "Today’s tools",
+   "legCut": "A gap: something no longer there",
+   "rotL": "Turn",
+   "rotR": "Turn",
+   "zIn": "Zoom in",
+   "zOut": "Zoom out",
+   "plan": "From above",
+   "home": "Start view",
+   "aria": {
+    "left": "Turn left",
+    "right": "Turn right",
+    "in": "Zoom in",
+    "out": "Zoom out",
+    "top": "Look from above, like a plan",
+    "home": "Back to the start view",
+    "dock": "Model controls",
+    "canvas": "3D model of the excavation. Use the arrow keys to turn and the plus and minus keys to zoom.",
+    "measure": "Measure distances on the model",
+    "secbar": "Choose the excavation area",
+    "secA": "Area A: the Greek house",
+    "secB": "Area B: the Roman wall",
+    "secC": "Area C: the deep sounding",
+    "secALL": "See the site plan"
+   },
+   "noGL": "Your browser cannot show the 3D model. You can read every card in the list.",
+   "todayNum": "Today",
+   "homeH": "What are you looking at?",
+   "homeP1": "This is an archaeological dig. About 2,400 years ago (4th century BC), in ancient Greece, there was a house here. Today only stones, pieces of fired clay and layers of soil are left.",
+   "homeP2": "This dig is imaginary, but it looks like real Greek houses that archaeologists have studied, such as those of the city of Olynthus. Not all Greek houses were the same: they changed with the city, the period and the family.",
+   "methodNote": "Two warnings: the names of objects (amphora, tile, loom weight…) are already a first interpretation, because we give them when we recognise the shape. And the certainty dots are a classroom guide, not a scientific measurement: they show how much we trust the main idea of each card.",
+   "howH": "How to explore",
+   "how": [
+    "Drag to turn the model.",
+    "Use the mouse wheel or two fingers to zoom in.",
+    "Tap a yellow tag to read its card.",
+    "With the keyboard: arrows to turn, + and − to zoom."
+   ],
+   "readH": "How to read a card",
+   "see": "What we see",
+   "seeD": "What is there and anyone can check: shape, colour, size and place.",
+   "think": "What we think",
+   "thinkD": "What archaeologists believe it means. It can change if new clues appear.",
+   "idea": "Idea of how it may have been",
+   "ideaD": "It is drawn in see-through blue. We did not find it: it is a reconstruction.",
+   "treasureH": "Are they looking for treasure?",
+   "treasure": "No. They look for clues. Almost everything they find comes from everyday life: bits of pots, food leftovers, stones. A piece of a pot can tell us more than a jewel.",
+   "findsH": "Finds",
+   "moreH": "More to explore",
+   "scale": "Small objects are drawn a little bigger so you can see them. The black and white bar on the floor is 1 metre long.",
+   "credit": "Teaching model of an imaginary excavation. Faculty of Education, ULPGC. Licence CC BY-NC 4.0.",
+   "back": "Back to the list",
+   "next": "Next",
+   "showIdea": "Show the idea in the model",
+   "hideIdea": "Hide the ideas",
+   "confH": "Are we sure?",
+   "conf": [
+    "We don’t know yet",
+    "It is only a possibility",
+    "It is quite likely",
+    "We are very sure"
+   ],
+   "todayH": "This is not ancient",
+   "findKick": "Find",
+   "zoneKick": "Area",
+   "strataKick": "Soil wall",
+   "todayKick": "Dig equipment",
+   "cutKick": "Gap or cut",
+   "dig": "Dig one slice of soil",
+   "refill": "Fill it in again",
+   "stepOf": "Slice {n} of 3",
+   "digDone": "Area finished",
+   "digSteps": [
+    "Soil from the collapse layer is still here. When a layer is thick, it is sometimes removed in slices of about 15 cm to note at what height each thing appears. Nobody knows what is underneath.",
+    "You removed one slice. There is only soil and tiny bits of clay. We write it down: no new finds. That is information too!",
+    "A small piece of roof tile appears. We measure it, take a photo and keep it in a bag with its label.",
+    "You reached the floor of the house. There are no more objects here. Everything is drawn and the team moves to another area."
+   ],
+   "strataIntro": "Layers of soil are like a pile of sheets of paper: usually, what is lower down is older than what is on top. But there are exceptions: if someone dug a pit, things can get mixed up. Tap a layer on the wall of the model or in this list.",
+   "layersH": "From top to bottom",
+   "finds": {
+    "cimientos": {
+     "name": "Stone foundations",
+     "see": "Rows of stones set in a line. They make a corner and leave a gap. In one stretch, stones are missing.",
+     "think": "They are the bottom part of the walls of a house. The gap may have been a door. Someone may have taken the missing stones to build something else.",
+     "idea": "On top of the stones there were mud-brick walls: bricks of mud and straw dried in the sun. We did not find them because mud brick survives badly: once the roof falls in and rain soaks it, it melts away. The height you see (about 2 metres) is a guess: some houses of this type had an upper floor and were taller."
+    },
+    "hogar": {
+     "name": "Hearth",
+     "see": "A black patch of ash and charcoal with stones around it. The soil around it is reddish, as if burnt.",
+     "think": "A fire was lit here. Maybe it was used for cooking or for keeping warm."
+    },
+    "anfora": {
+     "name": "Pieces of an amphora",
+     "see": "Six pieces of orange fired clay, thick and curved. One has a handle and another ends in a point.",
+     "think": "If we join them like a puzzle, they make a large jar with two handles: an amphora. It was used to store or carry oil, wine or other food. We don’t know what this one held; a laboratory could look for traces in the clay.",
+     "idea": "This is how a whole amphora may have looked. It is a rough drawing of a typical shape: with six pieces the exact profile cannot be known. To find out, archaeologists compare the pieces with complete amphorae in museums.",
+     "note": "It is not treasure: it was an everyday container, like a big plastic bottle today."
+    },
+    "copa": {
+     "name": "Piece of a black cup",
+     "see": "A small, thin piece. It is black and shiny, outside and inside.",
+     "think": "It seems to be part of a drinking cup. This shiny black gloss (a very thin layer of fired clay) was typical of Greek tableware. It helps us know how old the house is.",
+     "idea": "A wide, low cup with two handles and a foot. This is a suggestion: with only one piece, other shapes are possible.",
+     "note": "It is valuable for learning, even if it is not worth money."
+    },
+    "olla": {
+     "name": "Pieces of a cooking pot",
+     "see": "Pieces of dark, rough clay with black patches of soot. They are near the hearth.",
+     "think": "It may have been a cooking pot. Soot usually appears when a pot is put on the fire.",
+     "idea": "A pot on the fire of the hearth. This shape is likely, but not certain."
+    },
+    "tejas": {
+     "name": "Broken roof tiles",
+     "see": "Large, flat pieces of fired clay, broken. They are on the floor and inside the reddish layer of the wall.",
+     "think": "They were roof tiles. When the house was abandoned, the roof fell in and the tiles came down."
+    },
+    "pesas": {
+     "name": "Loom weights",
+     "see": "Two pieces of fired clay shaped like pyramids. Each one has a hole at the top.",
+     "think": "They hung from the threads of a loom to keep them tight. Maybe someone wove here… or only kept them here. With two pieces we cannot tell.",
+     "idea": "An upright loom leaning on the wall, with the weights hanging. It is only a possibility."
+    },
+    "huesos": {
+     "name": "Possible food leftovers",
+     "see": "A small broken bone and four olive stones.",
+     "think": "They may be leftovers from meals. If there are many, of several kinds, they help us know what was eaten. Olive stones may also have been used as fuel for the fire. A specialist tries to tell which animal the bone came from; with a small piece, often they can only say “sheep or goat”.",
+     "note": "For archaeologists, old rubbish is a very important clue."
+    },
+    "capas": {
+     "name": "Layers of soil"
+    },
+    "porExcavar": {
+     "name": "Area still to dig",
+     "see": "A square marked with pegs and strings. The soil has not been touched.",
+     "think": "We don’t know yet. Archaeologists dig slowly, layer by layer, and draw and photograph everything before going on. Often nothing special appears, and that is information too."
+    },
+    "herramientas": {
+     "name": "Today’s tools",
+     "see": "A black rubber bucket, a trowel and a black and white scale bar.",
+     "think": "They belong to the archaeologists, not to the Greek house. The trowel scrapes the soil little by little; the bucket carries soil away; the scale shows the real size in photos."
+    },
+    "b_muro": {
+     "name": "Roman wall",
+     "see": "Two faces of small stones with a hard grey mass between them. Along one stretch there are three much larger blocks of a different colour.",
+     "think": "It is a wall built with mortar, a Roman technique. The large blocks look like the kind of stone in the Greek house: they were probably reused.",
+     "idea": "This is how the complete wall may have looked. Only the lower part survives."
+    },
+    "b_trinchera": {
+     "name": "Robber trench",
+     "see": "A long, narrow band of different soil with loose rubble, slightly sunken below the floor. In the front section you can see it cuts through the mortar floor, the fill and the Greek level, and that it is full of stones.",
+     "think": "There was a wall here that is gone: someone took the stones to reuse them. The gap is left, filled in later. Archaeologists call it a robber trench or “ghost wall”: the plan of the building can be drawn even though the stones are missing. The Roman collapse lying above it covers it: that is why the trench is later than the floor and earlier than the collapse.",
+     "idea": "This is how the missing wall may have looked, drawn by following the shape of the trench.",
+     "note": "Because the trench cuts other layers, it is later than they are. Cutting is a clue about order."
+    },
+    "b_sigillata": {
+     "name": "Terra sigillata",
+     "see": "Pieces of red clay with a smooth, shiny surface. One is a base with letters pressed into it.",
+     "think": "It is fine Roman tableware. The letters are the stamp of a potter or a workshop. As these vessels were made within known dates, they help date the layer.",
+     "note": "It was made in huge quantities: everyday tableware, not a luxury object."
+    },
+    "b_tegula": {
+     "name": "Roman roof tiles",
+     "see": "Flat pieces with a raised edge along the sides, and a curved piece like half a pipe.",
+     "think": "They are two parts that worked together: the flat one (tegula) and the curved one (imbrex), which covered the joint. It is a different way of roofing from the tiles of the Greek house."
+    },
+    "b_moneda": {
+     "name": "Bronze coin",
+     "see": "A small greenish metal disc, very worn. The design is barely visible.",
+     "think": "If it is cleaned carefully, we may read which emperor it belongs to. Then we know the layer did not form before that date. Careful: coins were used for many years, so the layer can be a good deal later.",
+     "note": "It is not worth much money. It is worth a lot for dating."
+    },
+    "b_hoyo": {
+     "name": "Modern pit",
+     "see": "A round hole cutting through several layers. Inside, disturbed soil and a piece of blue plastic.",
+     "think": "Someone made it recently, maybe to plant a tree. This matters: in this pit there are new things below old layers. The rule about layers fails when something cuts the ground.",
+     "note": "That is why archaeologists draw the edges of every pit or trench."
+    },
+    "b_sondeo": {
+     "name": "Sounding below the Roman floor",
+     "see": "A small square hole opened in the mortar floor. At the bottom there is darker soil and a shiny black piece.",
+     "think": "A small window has been dug to see what lies below without destroying the Roman floor. Underneath comes the Greek level: the same period as Area A.",
+     "note": "Digging destroys: that is why part of a site is sometimes left untouched for the future."
+    },
+    "b_capas": {
+     "name": "Layers of Area B"
+    },
+    "c_muro": {
+     "name": "Older wall",
+     "see": "A row of stones that does not follow the same direction as those in Area A. It lies below the Greek level.",
+     "think": "It is part of a building older than the Greek house. The different alignment suggests it was built at another time, to another plan.",
+     "idea": "An earlier building, drawn only from the part we know. We do not know its size or its shape."
+    },
+    "c_cer": {
+     "name": "Handmade pottery",
+     "see": "Thick, dark, slightly uneven pieces. The walls are not the same thickness all over.",
+     "think": "It looks like pottery made by hand, without a wheel. It is usually older than the pottery of the Greek house, or made by people who worked in another way."
+    },
+    "c_carbon": {
+     "name": "Charcoal sample",
+     "see": "Small, light black pieces, with a little flag marked “C-14”.",
+     "think": "It is charcoal from an ancient fire. As it was once alive, it can be dated by radiocarbon in a laboratory. The date comes with a margin: not an exact day, but a range.",
+     "note": "It is collected carefully, with gloves, so the sample is not contaminated."
+    },
+    "c_fin": {
+     "name": "Digging stops here",
+     "see": "A circle marked on the bottom of the sounding, on pale, hard soil.",
+     "think": "Below this there are no more objects made by people: it is the natural ground. When you reach it, you stop, draw everything and note the depth."
+    },
+    "c_capas": {
+     "name": "Layers of Area C"
+    }
+   },
+   "layers": {
+    "vegetal": {
+     "name": "Topsoil",
+     "see": "Dark soil with roots and grass on top.",
+     "think": "It is the newest layer. Plants grow in it today."
+    },
+    "acumulada": {
+     "name": "Built-up soil",
+     "see": "Brown soil with very few objects.",
+     "think": "For centuries, wind and rain brought soil and covered the abandoned house."
+    },
+    "derrumbe": {
+     "name": "Collapse layer",
+     "see": "Reddish soil with bits of tile and clay.",
+     "think": "These are the remains of the mud-brick walls and the roof, which fell down."
+    },
+    "suelo": {
+     "name": "Floor of the house",
+     "see": "A thin, hard, flat layer.",
+     "think": "It is the floor the family walked on. What lies on it comes from the time the house was used."
+    },
+    "natural": {
+     "name": "Natural ground",
+     "see": "Pale, hard soil with no objects made by people.",
+     "think": "It is the ground that was here before the house was built."
+    },
+    "b_vegetal": {
+     "name": "Topsoil",
+     "see": "Dark soil with roots.",
+     "think": "Today’s layer."
+    },
+    "b_arado": {
+     "name": "Ploughed soil",
+     "see": "Loose brown soil with small, mixed pieces.",
+     "think": "The plough moved it for centuries. Objects from different periods turn up together here."
+    },
+    "b_derrRom": {
+     "name": "Roman collapse",
+     "see": "Reddish soil with many pieces of flat tile with a raised edge.",
+     "think": "It is the roof and walls of the Roman building, fallen in."
+    },
+    "b_sueloRom": {
+     "name": "Mortar floor",
+     "see": "A hard, pinkish layer, very smooth on top.",
+     "think": "It is the floor people walked on in Roman times. It has crushed tile mixed into the lime."
+    },
+    "b_relleno": {
+     "name": "Levelling fill",
+     "see": "Mixed soil with small stones and pieces of several kinds.",
+     "think": "It was dumped on purpose to flatten the ground before the Roman building went up."
+    },
+    "b_griego": {
+     "name": "Greek level",
+     "see": "Darker soil, with the odd piece of black gloss.",
+     "think": "It is the same period as the house in Area A. Here it is only seen through a small window."
+    },
+    "b_natural": {
+     "name": "Natural ground",
+     "see": "Pale, hard soil with no objects.",
+     "think": "The ground before any building."
+    },
+    "c_vegetal": {
+     "name": "Topsoil",
+     "see": "Dark soil with roots.",
+     "think": "Today’s layer."
+    },
+    "c_acum": {
+     "name": "Built-up soil",
+     "see": "Brown soil with few objects.",
+     "think": "It settled little by little after the site was abandoned."
+    },
+    "c_griego": {
+     "name": "Greek level",
+     "see": "Reddish soil with small pieces of tile.",
+     "think": "It matches the house in Area A: the same period."
+    },
+    "c_arcaico": {
+     "name": "Archaic level",
+     "see": "Dark soil with coarse pottery and charcoal.",
+     "think": "People who lived here before the Greek house. It lies below, so it is older."
+    },
+    "c_natural": {
+     "name": "Natural ground",
+     "see": "Pale, hard soil with no objects made by people.",
+     "think": "The excavation ends here."
+    }
+   },
+   "tabs": {
+    "explorar": "Explore",
+    "tiempo": "Time",
+    "cuaderno": "Notebook",
+    "epocas": "Periods",
+    "conjunto": "Overview",
+    "retos": "Challenges"
+   },
+   "tabsLabel": "Sections",
+   "measureBtn": "Measure",
+   "measureAria": "Measure distances on the model",
+   "measureHint": "Tap two points on the model to measure the distance. Press “Measure” again to finish.",
+   "howExtra": "The Time, Notebook and Challenges tabs have more activities. The “Measure” button lets you measure distances.",
+   "thinkQ": "Question to think about",
+   "toNotebook": "Write it in the notebook",
+   "q": {
+    "cimientos": "Why do you think only the stones at the bottom are left, and not the walls?",
+    "hogar": "What other clues would you look for to know if people cooked here?",
+    "anfora": "What test could tell us what was inside the amphora?",
+    "copa": "How can a broken piece help us know how old the house is?",
+    "olla": "The pot is near the hearth. Could it be by chance? What else would convince you?",
+    "tejas": "The tiles lie on top of the floor of the house. What happened first: people used the house, or the roof fell?",
+    "pesas": "How many weights would you need to find to be surer that there was a loom?",
+    "huesos": "What would your rubbish today tell archaeologists in the future?",
+    "capas": "If you find one object in the topsoil and another on the floor of the house, which one is probably older? Why?",
+    "porExcavar": "If nothing appears, was it a waste of time? Why?",
+    "herramientas": "Why don’t archaeologists use a big digger here?"
+   },
+   "method": "Before removing the slice, record it:",
+   "photo": "Take a photo",
+   "draw": "Draw the slice",
+   "bag": "Put the tile in a bag with its label",
+   "needSteps": "Finish the recording steps to be able to dig.",
+   "time": {
+    "h": "Time travel",
+    "intro": "See how the layers of Area A were formed and how they are dug afterwards, in three levels, from the top down. Press Play, drag the timeline or choose a moment. This tells only the story of Area A: to see every period of the site, open the Periods tab.",
+    "prev": "Back",
+    "next": "Next",
+    "play": "Play",
+    "pause": "Pause",
+    "stepOf": "Moment {n} of 8",
+    "note": "Notice: archaeologists dig in the opposite order to the way the layers were formed. The last thing laid down is the first thing they remove. In the vertical profile, the three digging levels go down from the top.",
+    "kinds": {
+     "idea": "Reconstruction: it is an idea",
+     "layer": "We work it out from the layers",
+     "dig": "What we do when digging"
+    },
+    "tl": {
+     "aria": "Timeline of the simulation",
+     "form": "Formation",
+     "dig": "Excavation"
+    },
+    "col": {
+     "title": "Excavation profile",
+     "down": "↓ Dug from the top down",
+     "levels": "Digging levels",
+     "todo": "still to dig",
+     "active": "digging",
+     "done": "dug",
+     "aria": "Vertical profile of the excavation: {n} of 3 levels dug"
+    },
+    "stages": [
+     {
+      "n": "The house in use",
+      "t": "About 2,400 years ago. A family lives here. The house has mud-brick walls, a tiled roof and whole pots and jars."
+     },
+     {
+      "n": "The abandoned house",
+      "t": "The family leaves. Some things stay on the floor and break: amphorae, pots, a cup… This is only one possibility: other Greek houses were destroyed suddenly, for example in a war."
+     },
+     {
+      "n": "The collapse",
+      "t": "Nobody repairs the house. The roof falls in and the rain melts the mud-brick walls. Everything is covered by a reddish layer."
+     },
+     {
+      "n": "Centuries go by",
+      "t": "Wind and rain bring soil little by little. The house is buried deeper and deeper."
+     },
+     {
+      "n": "Today, before digging",
+      "t": "Grass grows on top. It looks like any field: nobody can see the house. Underneath there are three layers that the archaeologists will remove in three levels."
+     },
+     {
+      "n": "Excavation · level 1: topsoil",
+      "t": "The grass and the topsoil are removed. It is the newest layer, so it comes out first. Before going deeper, everything is drawn, photographed and noted down."
+     },
+     {
+      "n": "Excavation · level 2: built-up soil",
+      "t": "Underneath there is brown soil that wind and rain brought over centuries. There are almost no objects. It is recorded and the dig goes deeper."
+     },
+     {
+      "n": "Excavation · level 3: collapse",
+      "t": "The reddish layer with pieces of tile appears: the collapse of the house. Once it is removed, the floor is in view, with the stones and broken objects. From here the questions about how people lived can be asked."
+     }
+    ]
+   },
+   "nb": {
+    "h": "Field notebook",
+    "intro": "Record the finds the way archaeologists do. Your notes are saved only on this device and are not sent to anyone.",
+    "progress": "You have recorded {n} of {m} finds.",
+    "mat": "What material is it?",
+    "mats": {
+     "barro": "Fired clay",
+     "piedra": "Stone",
+     "hueso": "Bone and seeds",
+     "ceniza": "Ash and charcoal",
+     "metal": "Metal"
+    },
+    "use": "What could it have been used for?",
+    "uses": {
+     "construir": "For building",
+     "cocinar": "For cooking",
+     "guardar": "For storing food",
+     "beber": "For drinking",
+     "tejer": "For weaving",
+     "comer": "They are food leftovers",
+     "servir": "For serving food",
+     "pagar": "For buying things",
+     "datar": "For working out dates",
+     "nose": "I don’t know yet"
+    },
+    "sure": "How sure are you?",
+    "sures": [
+     "A little",
+     "Quite",
+     "Very"
+    ],
+    "obs": "What I see, in my own words",
+    "save": "Save in the notebook",
+    "back": "Back to the notebook",
+    "nextPending": "Next one to record",
+    "matOk": "Material: ✓ correct. The material is evidence: you can check it by looking.",
+    "matNo": "Material: ✗ check the card, in “What we see”. The material can be checked.",
+    "useSame": "Use: you agree with what archaeologists suggest. Still, it is an interpretation.",
+    "useNose": "Use: that is an honest answer. Archaeologists suggest “{x}”.",
+    "useDiff": "Use: archaeologists suggest another idea, “{x}”. Which clue made you think of yours? Write it down.",
+    "copy": "Copy my notebook",
+    "copied": "Copied. You can paste it into a document.",
+    "copyFail": "It could not be copied automatically. Select the text and copy it.",
+    "clear": "Delete my notebook",
+    "clearSure": "Press again to delete everything",
+    "cleared": "Notebook deleted.",
+    "done": "Recorded",
+    "pending": "Not recorded",
+    "need": "Choose at least the material.",
+    "noStore": "This browser does not allow saving: your notes will be lost when you close the page.",
+    "copyHead": "My field notebook",
+    "lMat": "Material",
+    "lUse": "Possible use",
+    "lSure": "How sure",
+    "lObs": "Observation"
+   },
+   "retos": {
+    "h": "Challenges",
+    "intro": "Test what you have learnt. You can repeat each challenge as many times as you like.",
+    "again": "Play again",
+    "retry": "Try again",
+    "back": "Back to the challenges",
+    "result": "Result: {a} of {b}",
+    "notYet": "Not done",
+    "names": {
+     "vemos": "Do we see it or think it?",
+     "epoca": "Which period is it from?",
+     "corr": "Correlate the areas",
+     "orden": "Put the layers in order",
+     "busca": "Search the model",
+     "mide": "Measure the gap"
+    },
+    "desc": {
+     "vemos": "Decide whether each sentence is an observation or an interpretation.",
+     "epoca": "Match each find to its period. You can check the Periods tab.",
+     "corr": "Decide which layers in different areas belong to the same period.",
+     "orden": "Put the soil layers in order: newest at the top, oldest at the bottom.",
+     "busca": "Solve missions by tapping objects in the model.",
+     "mide": "Use the measuring tool to find out how wide the gap that may have been a door is."
+    },
+    "vemos": {
+     "q": "Is this sentence something we see or something we think?",
+     "see": "We see it",
+     "think": "We think it",
+     "okSee": "✓ Well done! You can check it by looking or measuring.",
+     "okThink": "✓ Well done! It is an explanation: sensible, but it could change with new clues.",
+     "no": "✗ Look again: can you check it by looking, or is it an explanation of what happened?",
+     "next": "Next sentence",
+     "end": "You got {a} of {b} sentences right first time.",
+     "count": "Sentence {n} of {m}",
+     "items": [
+      [
+       "The stones make a corner.",
+       "s"
+      ],
+      [
+       "A family lived here.",
+       "t"
+      ],
+      [
+       "There is a black patch of ash.",
+       "s"
+      ],
+      [
+       "People cooked at the hearth.",
+       "t"
+      ],
+      [
+       "A piece of clay has a handle.",
+       "s"
+      ],
+      [
+       "The amphora held oil.",
+       "t"
+      ],
+      [
+       "The weights have a hole.",
+       "s"
+      ],
+      [
+       "Someone wove in this room.",
+       "t"
+      ],
+      [
+       "The reddish layer has bits of tile.",
+       "s"
+      ],
+      [
+       "The roof fell in.",
+       "t"
+      ]
+     ]
+    },
+    "corr": {
+     "count": "Question {n} of {m}",
+     "q": "Which layer in Area A formed in the same period?",
+     "none": "None: there is no equivalent",
+     "ok": "✓ Well done!",
+     "no": "✗ Not that one.",
+     "end": "You got {a} of {b} right first time.",
+     "items": {
+      "b_griego": {
+       "why": "Both areas have black gloss and pieces of Greek-period tile. In A that period is split into floor and collapse: both are right."
+      },
+      "c_arcaico": {
+       "why": "In A there is no level from that period. Careful: no record does not mean nobody lived there, only that it does not survive or nobody has dug that deep."
+      },
+      "b_sueloRom": {
+       "why": "In A there is neither a mortar floor nor Roman tableware. Maybe nothing was built there, or it was levelled later. We do not know."
+      },
+      "c_acum": {
+       "why": "It is the soil that gradually covered the place after it was abandoned: same period and same process."
+      },
+      "b_arado": {
+       "why": "It formed in the same period as the built-up soil of A, but in another way: here the plough moved it. The same period is not always the same process."
+      },
+      "b_vegetal": {
+       "why": "It is today’s surface in every area."
+      },
+      "trap": {
+       "q": "The archaic level in C lies at the same height as the collapse in A. Are they from the same period?",
+       "opts": {
+        "si": "Yes: same height, same period",
+        "no": "No: height does not tell the period"
+       },
+       "why": "The archaic level is much older. The ground is not at the same height everywhere and the layers formed at different times."
+      },
+      "rel": {
+       "q": "In Area B, a trench cuts the mortar floor and then the Roman collapse covers it. What happened first?",
+       "opts": {
+        "zanja": "The trench",
+        "derrumbe": "The collapse",
+        "igual": "It cannot be known"
+       },
+       "why": "What cuts something is later than it, and what covers something is later than what is covered. The trench is later than the floor and earlier than the collapse that covers it."
+      }
+     }
+    },
+    "epoca": {
+     "q": "Which period does this find belong to?",
+     "ok": "✓ Yes!",
+     "no": "✗ It is from the “{x}” period.",
+     "end": "You got {a} of {b} right first time.",
+     "why": {
+      "copa": "Black gloss is typical of Greek tableware.",
+      "b_sigillata": "Terra sigillata is Roman tableware; the stamp helps date it.",
+      "c_cer": "Handmade pottery lies below the Greek level: it is older.",
+      "b_trinchera": "The trench cuts layers that already existed, so it was made later.",
+      "b_moneda": "The coin turned up in the Roman layers and helps date them.",
+      "pesas": "They lay on the floor of the Greek house.",
+      "b_hoyo": "It has plastic inside: it was made very recently."
+     }
+    },
+    "orden": {
+     "q": "Put the layers in order: the newest at the top and the oldest at the bottom. Use the arrows. Tap a name to see it on the model.",
+     "top": "Top: newest",
+     "bottom": "Bottom: oldest",
+     "up": "Move up",
+     "down": "Move down",
+     "check": "Check",
+     "ok": "✓ Perfect! What is lower down was formed earlier. This is the principle of superposition.",
+     "no": "Almost. Check the layers marked ✗.",
+     "good": "✓ right place",
+     "bad": "✗ wrong place"
+    },
+    "busca": {
+     "intro": "Read the mission and tap the answer on the model or on its tag.",
+     "count": "Mission {n} of {m}",
+     "ok": "✓ Yes!",
+     "no": "✗ You tapped “{x}”. That’s not it. Try again.",
+     "skip": "Skip mission",
+     "next": "Next mission",
+     "end": "Missions solved first time: {a} of {b}.",
+     "missions": [
+      {
+       "q": "Tap something that was part of the house.",
+       "why": "The foundations held up the walls and the tiles covered the roof."
+      },
+      {
+       "q": "Tap something to do with food.",
+       "why": "The hearth, the pot, the amphora and the food leftovers have to do with cooking, storing or eating."
+      },
+      {
+       "q": "Tap an object that helps us know how old the house is.",
+       "why": "The shape and decoration of pottery change over time. The black-glazed cup is especially useful."
+      },
+      {
+       "q": "Tap, on the wall, a layer that formed after the house was abandoned.",
+       "why": "The collapse layer, the built-up soil and the topsoil lie above the floor of the house: they formed later."
+      },
+      {
+       "q": "Tap something that is NOT ancient.",
+       "why": "They are tools used by archaeologists today."
+      },
+      {
+       "q": "Tap a place where we still don’t know what there is.",
+       "why": "The area still to dig holds soil that has not been studied yet."
+      }
+     ]
+    },
+    "mide": {
+     "intro": "Turn on the measuring tool and tap both sides of the gap in the row of stones in the foundations. The black and white bar is 1 metre long.",
+     "hint": "The gap is in the row of stones at the back. It may have been a door.",
+     "on": "Turn on measuring",
+     "off": "Stop measuring",
+     "last": "Your last measurement: {x}",
+     "q": "How wide is the gap?",
+     "opts": [
+      "About 50 cm",
+      "A little more than 1 metre",
+      "About 3 metres"
+     ],
+     "ok": "✓ Well measured! It is a little more than 1 metre wide. If it was a door, people and things went through it; but that is an interpretation.",
+     "no": "✗ Measure again: tap one side of the gap and then the other."
+    }
+   },
+   "secbarLbl": "Test pit",
+   "secAll": "Plan",
+   "secKick": "Test pit",
+   "secs": {
+    "A": {
+     "name": "Test pit A · the Greek house",
+     "per": "griego",
+     "sub": "The 4th-century BC house appeared here."
+    },
+    "B": {
+     "name": "Test pit B · the Roman wall",
+     "per": "romano",
+     "sub": "People built here again, centuries later."
+    },
+    "C": {
+     "name": "Test pit C · the deep sounding",
+     "per": "arcaico",
+     "sub": "Here they dug deeper, down to the oldest levels."
+    }
+   },
+   "zonesP": "The site is a single place, but archaeologists do not dig all of the ground: they open three test pits (A, B and C) at different points and compare what comes out. Switch between them with the buttons at the top left, or press “Plan” to see where each one is. Each test pit reaches different periods.",
+   "siteH": "Site plan",
+   "siteP": "One site, three test pits. Archaeologists do not dig all of the ground: they open small areas at several points and compare what appears in each. Here the three are in place, on the same ground. Each one tells a different part of the story, and only by comparing them can the story of the whole site be rebuilt.",
+   "siteTip": "Tap a test pit on the plan or in the list to go into it.",
+   "splan": {
+    "title": "Seen from above",
+    "north": "N",
+    "scale": "5 m",
+    "cuts": "Thick line: wall with the section",
+    "go": "Go to test pit {k}: {name}",
+    "note": "Positions and distances are approximate: it is a model.",
+    "aria": "Site plan with the three test pits: C to the north, A in the middle and B to the east"
+   },
+   "secOf": "You are in {x}",
+   "periods": {
+    "arcaico": {
+     "name": "Before the house",
+     "when": "7th-6th century BC",
+     "col": "#8a6d4a"
+    },
+    "griego": {
+     "name": "The Greek house",
+     "when": "4th century BC",
+     "col": "#b0694a"
+    },
+    "romano": {
+     "name": "Roman reoccupation",
+     "when": "1st-2nd century AD",
+     "col": "#c0553f"
+    },
+    "expolio": {
+     "name": "Stone robbing and abandonment",
+     "when": "after the 3rd century AD",
+     "col": "#7a6a86"
+    },
+    "campo": {
+     "name": "Farmed field",
+     "when": "later centuries, up to today",
+     "col": "#6f8a4a"
+    },
+    "hoy": {
+     "name": "Today: the excavation",
+     "when": "our own time",
+     "col": "#4a6e8a"
+    }
+   },
+   "epH": "Periods of the site",
+   "epIntro": "One place can hold several stories, one on top of another. Here they go from the oldest to the most recent. Tap each period to read it.",
+   "epWhere": "Where you see it",
+   "epHow": "How we know",
+   "epGo": "Go to that area",
+   "epTexts": {
+    "arcaico": {
+     "t": "People already lived here before the Greek house. A wall on a different alignment and handmade pottery are left.",
+     "where": "Area C, in the archaic layer, below the Greek level.",
+     "how": "From its position: it lies below everything Greek, so it is older. And from a piece of charcoal that can be dated with radiocarbon."
+    },
+    "griego": {
+     "t": "The house is built: a stone base, mud-brick walls and a tiled roof. This moment is clearest in Area A.",
+     "where": "The whole of Area A; it also shows up in Areas B and C.",
+     "how": "From the type of pottery. The black gloss of the cup was made within known dates, so the layer where it appears cannot be older."
+    },
+    "romano": {
+     "t": "Centuries later people build on the same spot again, with other customs: a mortared wall, a reddish mortar floor and shiny red tableware.",
+     "where": "Area B, above the Greek level.",
+     "how": "From terra sigillata, which sometimes carries the potter’s stamp, and from a coin. A coin says the layer cannot be earlier than it… but it can be a good deal later, because coins stay in use for a long time."
+    },
+    "expolio": {
+     "t": "The house goes out of use and someone takes the stones away to build elsewhere. Where the wall stood, only the empty trench is left, filled with rubble.",
+     "where": "Area B: the robber trench. In Area A, stones are missing along one stretch of the base.",
+     "how": "From a negative shape: we do not see the wall, we see its gap. The trench cuts layers that already existed, so it is later than they are."
+    },
+    "campo": {
+     "t": "The place becomes farmland. The plough moves the upper soil and mixes objects from several periods.",
+     "where": "Area B, the ploughed soil; and the topsoil of every area.",
+     "how": "Because pieces from different periods appear mixed in that layer. There the rule “lower is older” works less well."
+    },
+    "hoy": {
+     "t": "Archaeologists arrive, open areas, dig layer by layer and record everything. A modern pit with a piece of plastic reminds us that the ground is still being disturbed.",
+     "where": "All three areas, and the modern pit in Area B.",
+     "how": "Because we did it ourselves: it is the only part we actually see happening."
+    }
+   },
+   "epOrder": [
+    "arcaico",
+    "griego",
+    "romano",
+    "expolio",
+    "campo",
+    "hoy"
+   ],
+   "dateH": "How are dates worked out?",
+   "dateWays": [
+    {
+     "n": "From the layers",
+     "t": "It tells what is earlier and what is later, but gives no years."
+    },
+    {
+     "n": "From the objects",
+     "t": "Some pottery was made within known dates. If it turns up in a layer, that layer cannot be older."
+    },
+    {
+     "n": "From radiocarbon",
+     "t": "It measures the carbon in remains that were once alive, such as charcoal from a fire. It gives a date with a margin, for example “around 600 BC, give or take 40 years”."
+    }
+   ],
+   "conj": {
+    "h": "Site-wide stratigraphy",
+    "intro": "Each area keeps only a piece of the story. Here the three are put together, from the oldest (C) to the most recent (B), to rebuild the whole site.",
+    "viewLbl": "View",
+    "vCortes": "Sections",
+    "vEpocas": "By period",
+    "vCortesD": "The three sections side by side, at their real height. Layers from the same period share a colour.",
+    "vEpocasD": "The same information ordered by time: each row is a period and each column an area.",
+    "phaseLbl": "Period",
+    "prev": "Earlier",
+    "next": "Later",
+    "play": "Play",
+    "pause": "Pause",
+    "corr": "Show correlations",
+    "colorEp": "Colour by period",
+    "scale": "0.5 m",
+    "base": "Natural ground",
+    "noRec": "no record",
+    "short": {},
+    "hdr": {
+     "C": "Test pit C",
+     "A": "Test pit A",
+     "B": "Test pit B"
+    },
+    "sub": {
+     "C": "deep sounding",
+     "A": "Greek house",
+     "B": "Roman wall"
+    },
+    "cuts": {
+     "zanja": "trench",
+     "hoyo": "pit"
+    },
+    "sameH": "same height",
+    "swipe": "← Swipe the diagram to see all three areas →",
+    "cutNote": "The dashed red lines are cuts: trenches and pits that go through layers. What cuts is more recent than what is cut.",
+    "phaseNote": [
+     "Before anything else there is only natural ground. Notice it is not at the same height in the three areas: C is about 25 cm higher.",
+     "People who lived here before the house left the archaic level. It survives only in Area C. In A and B there is no record, but that does not mean nobody lived there.",
+     "The Greek house is built. All three areas hold a Greek level, but they tell it in different detail: in A the floor and the collapse can be told apart.",
+     "Roman reoccupation in Area B: the ground is levelled with fill and a mortar floor is laid. In A and C soil keeps building up, but that layer cannot tell what happens.",
+     "Stone robbing in B: a trench cuts the Roman floor and is filled with rubble; then the collapse of the building covers it. The trench is later than the floor and earlier than the collapse.",
+     "The place is farmed. In B the plough forms a layer of its own; in A and C it is still the same built-up soil.",
+     "Today: grass covers everything. A modern pit in B goes through several layers and mixes new things with old ones."
+    ],
+    "lessonsH": "Three ideas to take away",
+    "lessons": [
+     {
+      "n": "No single area tells it all",
+      "t": "Area A has nothing Roman, B does not reach the archaic level and C has no Roman building. Only by putting the three together can the story be rebuilt."
+     },
+     {
+      "n": "The same height is not the same period",
+      "t": "The archaic level in C lies at the same height as the collapse in A, and is much older. To compare areas you must look at what the layers contain, not at how deep they are."
+     },
+     {
+      "n": "A thick layer can hide a lot of time",
+      "t": "The built-up soil of A is a single layer covering several centuries. In Area B, that same time is split into four different layers."
+     }
+    ],
+    "practice": "Practise: correlation challenge",
+    "hint": "Tap a layer in the diagram to see what links it to the other areas.",
+    "selH": "Chosen layer",
+    "selWhere": "Area",
+    "selPeriod": "Formed during",
+    "spans": "This layer covers several periods: inside it, time cannot be separated.",
+    "corrH": "It matches",
+    "corrNone": "It has no equivalent in the other areas: it has only been found here.",
+    "conf": {
+     "alta": "Fairly secure correlation",
+     "media": "Probable correlation",
+     "hip": "Only a hypothesis"
+    },
+    "view3d": "See it in the model",
+    "corrWhy": {
+     "gr": "Both have black gloss and pieces of Greek-period tile, and lie above the natural ground.",
+     "acum": "It is the soil that gradually covered the place after it was abandoned. It formed slowly, over centuries.",
+     "veg": "It is today’s surface in every area.",
+     "nat": "It is the ground before any building. Careful: it is not at the same height in every area.",
+     "acumB": "The built-up soil of A covers the same time as four layers of B (fill, Roman floor, collapse and ploughed soil). It is only a hypothesis: inside the layer of A time cannot be separated."
+    },
+    "svgTitle": "Site-wide stratigraphy diagram of areas C, A and B"
+   },
+   "digCol": {
+    "title": "Three slices",
+    "lvl": "Slice {n}",
+    "floor": "Floor",
+    "tile": "tile",
+    "aria": "Vertical profile of the area to dig: {n} of 3 slices removed"
+   }
+  }
+ },
+ "catas": {
+  "A": {
+   "desplazamiento": [
+    0,
+    0
+   ],
+   "camara": {
+    "objetivo": [
+     -0.3,
+     0.4,
+     -0.3
+    ],
+    "distancia": 18.5
+   },
+   "cota": 0,
+   "fichaCapas": "capas",
+   "orden": [
+    "cimientos",
+    "hogar",
+    "anfora",
+    "copa",
+    "olla",
+    "tejas",
+    "pesas",
+    "huesos",
+    "capas",
+    "porExcavar",
+    "herramientas"
+   ],
+   "estratos": {
+    "capas": [
+     {
+      "id": "vegetal",
+      "y0": 2.1,
+      "y1": 2.8,
+      "base": "#5b4230",
+      "specks": [
+       "#3e2c20",
+       "#76573e",
+       "#2f4424"
+      ],
+      "roots": true
+     },
+     {
+      "id": "acumulada",
+      "y0": 0.85,
+      "y1": 2.1,
+      "base": "#9a6f4c",
+      "specks": [
+       "#86603f",
+       "#b08563",
+       "#7b5638"
+      ]
+     },
+     {
+      "id": "derrumbe",
+      "y0": 0,
+      "y1": 0.85,
+      "base": "#b0694a",
+      "specks": [
+       "#c98a5c",
+       "#8f4f36",
+       "#d9a57a"
+      ],
+      "tiles": true
+     },
+     {
+      "id": "suelo",
+      "y0": -0.25,
+      "y1": 0,
+      "base": "#cdb38c",
+      "specks": [
+       "#b89c74",
+       "#dcc6a2"
+      ]
+     },
+     {
+      "id": "natural",
+      "y0": -1.2,
+      "y1": -0.25,
+      "base": "#d8cdaa",
+      "specks": [
+       "#c3b891",
+       "#e8e0c5",
+       "#a9a07f"
+      ],
+      "pebbles": true
+     }
+    ],
+    "opciones": {
+     "reg": true,
+     "solid": [
+      "suelo",
+      "natural"
+     ],
+     "grass": "vegetal",
+     "wallFind": "tejas",
+     "spots": [
+      [
+       -3.6,
+       0.35,
+       "b"
+      ],
+      [
+       -1.2,
+       0.6,
+       "b"
+      ],
+      [
+       1.4,
+       0.25,
+       "b"
+      ],
+      [
+       3.9,
+       0.55,
+       "b"
+      ],
+      [
+       -3.8,
+       0.5,
+       "l"
+      ],
+      [
+       -1,
+       0.3,
+       "l"
+      ],
+      [
+       2.2,
+       0.62,
+       "l"
+      ]
+     ]
+    }
+   }
+  },
+  "B": {
+   "desplazamiento": [
+    17,
+    0
+   ],
+   "camara": {
+    "objetivo": [
+     -0.3,
+     0.9,
+     -0.3
+    ],
+    "distancia": 18.5
+   },
+   "cota": 0.8,
+   "fichaCapas": "b_capas",
+   "orden": [
+    "b_muro",
+    "b_trinchera",
+    "b_sigillata",
+    "b_tegula",
+    "b_moneda",
+    "b_hoyo",
+    "b_sondeo",
+    "b_capas"
+   ],
+   "estratos": {
+    "capas": [
+     {
+      "id": "b_vegetal",
+      "y0": 2.2,
+      "y1": 2.8,
+      "base": "#5b4230",
+      "specks": [
+       "#3e2c20",
+       "#76573e",
+       "#2f4424"
+      ],
+      "roots": true
+     },
+     {
+      "id": "b_arado",
+      "y0": 1.45,
+      "y1": 2.2,
+      "base": "#8a6a4a",
+      "specks": [
+       "#77593d",
+       "#a1805e",
+       "#6b5138"
+      ]
+     },
+     {
+      "id": "b_derrRom",
+      "y0": 0.8,
+      "y1": 1.45,
+      "base": "#a96b4d",
+      "specks": [
+       "#c4855a",
+       "#8b5038",
+       "#d6a079"
+      ],
+      "tiles": true
+     },
+     {
+      "id": "b_sueloRom",
+      "y0": 0.6,
+      "y1": 0.8,
+      "base": "#c08069",
+      "specks": [
+       "#a86a55",
+       "#d49a83"
+      ]
+     },
+     {
+      "id": "b_relleno",
+      "y0": 0.05,
+      "y1": 0.6,
+      "base": "#9c8563",
+      "specks": [
+       "#877050",
+       "#b49c78",
+       "#7d6a4e"
+      ],
+      "pebbles": true
+     },
+     {
+      "id": "b_griego",
+      "y0": -0.25,
+      "y1": 0.05,
+      "base": "#7d6647",
+      "specks": [
+       "#6a5539",
+       "#95805e"
+      ]
+     },
+     {
+      "id": "b_natural",
+      "y0": -1.2,
+      "y1": -0.25,
+      "base": "#d8cdaa",
+      "specks": [
+       "#c3b891",
+       "#e8e0c5",
+       "#a9a07f"
+      ],
+      "pebbles": true
+     }
+    ],
+    "opciones": {
+     "sid": "b_capas",
+     "solid": [
+      "b_sueloRom",
+      "b_relleno",
+      "b_griego",
+      "b_natural"
+     ],
+     "grass": "b_vegetal",
+     "holes": [
+      {
+       "x0": -4.45,
+       "x1": -2.75,
+       "z0": 2.5,
+       "z1": 4.2,
+       "layers": [
+        "b_sueloRom",
+        "b_relleno"
+       ]
+      },
+      {
+       "x0": 1.3,
+       "x1": 2.9,
+       "z0": -1,
+       "z1": 5,
+       "layers": [
+        "b_sueloRom",
+        "b_relleno",
+        "b_griego"
+       ]
+      }
+     ],
+     "floorC": [
+      "#c08069",
+      "#ac6b55",
+      "#d49a83",
+      "#b87a63",
+      "#cf907a"
+     ],
+     "wallFind": "b_tegula",
+     "wallColor": 12544575,
+     "spots": [
+      [
+       -3.4,
+       1,
+       "b"
+      ],
+      [
+       -0.6,
+       1.25,
+       "b"
+      ],
+      [
+       2.6,
+       1.05,
+       "b"
+      ],
+      [
+       -2.9,
+       1.15,
+       "l"
+      ],
+      [
+       1.6,
+       1,
+       "l"
+      ]
+     ]
+    }
+   }
+  },
+  "C": {
+   "desplazamiento": [
+    0,
+    -17
+   ],
+   "camara": {
+    "objetivo": [
+     -0.3,
+     0.4,
+     -0.3
+    ],
+    "distancia": 16
+   },
+   "cota": 0.25,
+   "fichaCapas": "c_capas",
+   "orden": [
+    "c_muro",
+    "c_cer",
+    "c_carbon",
+    "c_fin",
+    "c_capas"
+   ],
+   "estratos": {
+    "capas": [
+     {
+      "id": "c_vegetal",
+      "y0": 2.3,
+      "y1": 2.8,
+      "base": "#5b4230",
+      "specks": [
+       "#3e2c20",
+       "#76573e",
+       "#2f4424"
+      ],
+      "roots": true
+     },
+     {
+      "id": "c_acum",
+      "y0": 1.15,
+      "y1": 2.3,
+      "base": "#9a6f4c",
+      "specks": [
+       "#86603f",
+       "#b08563",
+       "#7b5638"
+      ]
+     },
+     {
+      "id": "c_griego",
+      "y0": 0.85,
+      "y1": 1.15,
+      "base": "#b0694a",
+      "specks": [
+       "#c98a5c",
+       "#8f4f36",
+       "#d9a57a"
+      ],
+      "tiles": true
+     },
+     {
+      "id": "c_arcaico",
+      "y0": 0.25,
+      "y1": 0.85,
+      "base": "#6f5a41",
+      "specks": [
+       "#5b4934",
+       "#8a7254",
+       "#4d3e2d"
+      ]
+     },
+     {
+      "id": "c_natural",
+      "y0": -1.2,
+      "y1": 0.25,
+      "base": "#d8cdaa",
+      "specks": [
+       "#c3b891",
+       "#e8e0c5",
+       "#a9a07f"
+      ],
+      "pebbles": true
+     }
+    ],
+    "opciones": {
+     "sid": "c_capas",
+     "solid": [
+      "c_natural"
+     ],
+     "grass": "c_vegetal",
+     "floorC": [
+      "#d8cdaa",
+      "#c3b891",
+      "#e8e0c5",
+      "#a9a07f"
+     ],
+     "wallFind": "c_cer",
+     "wallColor": 9267786,
+     "spots": [
+      [
+       -3.2,
+       0.45,
+       "b"
+      ],
+      [
+       0.4,
+       0.6,
+       "b"
+      ],
+      [
+       2.8,
+       0.4,
+       "b"
+      ],
+      [
+       -1.8,
+       0.55,
+       "l"
+      ],
+      [
+       2,
+       0.45,
+       "l"
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "vistaPlano": {
+  "objetivo": [
+   5.6,
+   0.4,
+   -6.2
+  ],
+  "distancia": 53
+ },
+ "hallazgos": {
+  "cimientos": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "1",
+   "anchor": [
+    -3,
+    1.05,
+    1.2
+   ],
+   "conf": 3,
+   "idea": true,
+   "dist": 13,
+   "focus": [
+    -0.5,
+    0.4,
+    -0.5
+   ]
+  },
+  "hogar": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "2",
+   "anchor": [
+    1.2,
+    0.9,
+    0.8
+   ],
+   "ring": 0.85,
+   "conf": 2,
+   "dist": 7
+  },
+  "anfora": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "3",
+   "anchor": [
+    -1.6,
+    0.95,
+    1.6
+   ],
+   "ring": 0.8,
+   "conf": 3,
+   "idea": true,
+   "dist": 7
+  },
+  "copa": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "4",
+   "anchor": [
+    2.6,
+    0.6,
+    -0.6
+   ],
+   "ring": 0.4,
+   "conf": 2,
+   "idea": true,
+   "dist": 6
+  },
+  "olla": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "5",
+   "anchor": [
+    2.05,
+    0.3,
+    1.65
+   ],
+   "ring": 0.5,
+   "conf": 2,
+   "idea": true,
+   "dist": 6.5
+  },
+  "tejas": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "6",
+   "anchor": [
+    3,
+    0.6,
+    -3.6
+   ],
+   "ring": 1,
+   "conf": 3,
+   "dist": 8
+  },
+  "pesas": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "7",
+   "anchor": [
+    -1.65,
+    0.95,
+    -1
+   ],
+   "ring": 0.55,
+   "conf": 1,
+   "idea": true,
+   "dist": 6.5
+  },
+  "huesos": {
+   "sec": "A",
+   "kind": "ancient",
+   "num": "8",
+   "anchor": [
+    0,
+    0.3,
+    2.45
+   ],
+   "ring": 0.45,
+   "conf": 2,
+   "dist": 6
+  },
+  "capas": {
+   "sec": "A",
+   "kind": "strata",
+   "num": "C",
+   "anchor": [
+    -5.6,
+    3,
+    -0.8
+   ],
+   "dist": 14,
+   "focus": [
+    -3,
+    1.2,
+    -1.5
+   ]
+  },
+  "porExcavar": {
+   "sec": "A",
+   "kind": "zone",
+   "num": "?",
+   "anchor": [
+    3.6,
+    1.3,
+    3.6
+   ],
+   "conf": 0,
+   "dist": 8,
+   "focus": [
+    3.6,
+    0.4,
+    3.6
+   ]
+  },
+  "herramientas": {
+   "sec": "A",
+   "kind": "today",
+   "num": "",
+   "anchor": [
+    4.3,
+    0.8,
+    1.25
+   ],
+   "dist": 9,
+   "focus": [
+    2.5,
+    0.2,
+    2.6
+   ]
+  },
+  "b_muro": {
+   "sec": "B",
+   "kind": "ancient",
+   "num": "1",
+   "anchor": [
+    -1.2,
+    1.85,
+    -1.6
+   ],
+   "conf": 3,
+   "idea": true,
+   "dist": 12,
+   "focus": [
+    -0.5,
+    0.9,
+    -0.5
+   ]
+  },
+  "b_trinchera": {
+   "sec": "B",
+   "kind": "cut",
+   "num": "2",
+   "anchor": [
+    2.2,
+    1.15,
+    1.9
+   ],
+   "conf": 2,
+   "idea": true,
+   "dist": 9,
+   "focus": [
+    1.6,
+    0.8,
+    1.9
+   ]
+  },
+  "b_sigillata": {
+   "sec": "B",
+   "kind": "ancient",
+   "num": "3",
+   "anchor": [
+    -2.6,
+    1.05,
+    1.5
+   ],
+   "ring": 0.5,
+   "conf": 3,
+   "dist": 6.5
+  },
+  "b_tegula": {
+   "sec": "B",
+   "kind": "ancient",
+   "num": "4",
+   "anchor": [
+    1.1,
+    1.05,
+    -3.3
+   ],
+   "ring": 0.8,
+   "conf": 3,
+   "dist": 8
+  },
+  "b_moneda": {
+   "sec": "B",
+   "kind": "ancient",
+   "num": "5",
+   "anchor": [
+    3.3,
+    0.95,
+    -0.9
+   ],
+   "ring": 0.35,
+   "conf": 2,
+   "dist": 5.5
+  },
+  "b_hoyo": {
+   "sec": "B",
+   "kind": "cut",
+   "num": "6",
+   "anchor": [
+    0.9,
+    2.35,
+    -4.9
+   ],
+   "conf": 3,
+   "dist": 8,
+   "focus": [
+    0.9,
+    1.6,
+    -3.2
+   ]
+  },
+  "b_sondeo": {
+   "sec": "B",
+   "kind": "zone",
+   "num": "7",
+   "anchor": [
+    -3.6,
+    0.95,
+    3.35
+   ],
+   "conf": 1,
+   "dist": 8,
+   "focus": [
+    -3.6,
+    0.4,
+    3.35
+   ]
+  },
+  "b_capas": {
+   "sec": "B",
+   "kind": "strata",
+   "num": "C",
+   "anchor": [
+    -5.6,
+    3,
+    -0.8
+   ],
+   "dist": 14,
+   "focus": [
+    -3,
+    1.2,
+    -1.5
+   ]
+  },
+  "c_muro": {
+   "sec": "C",
+   "kind": "ancient",
+   "num": "1",
+   "anchor": [
+    -1.8,
+    1,
+    -1.2
+   ],
+   "conf": 2,
+   "idea": true,
+   "dist": 10,
+   "focus": [
+    -0.8,
+    0.5,
+    -0.8
+   ]
+  },
+  "c_cer": {
+   "sec": "C",
+   "kind": "ancient",
+   "num": "2",
+   "anchor": [
+    1.4,
+    0.55,
+    0.9
+   ],
+   "ring": 0.5,
+   "conf": 3,
+   "dist": 6
+  },
+  "c_carbon": {
+   "sec": "C",
+   "kind": "ancient",
+   "num": "3",
+   "anchor": [
+    2.6,
+    0.5,
+    2.3
+   ],
+   "ring": 0.4,
+   "conf": 3,
+   "dist": 5.5
+  },
+  "c_fin": {
+   "sec": "C",
+   "kind": "zone",
+   "num": "4",
+   "anchor": [
+    -2.2,
+    0.45,
+    3.4
+   ],
+   "conf": 3,
+   "dist": 8,
+   "focus": [
+    -2.2,
+    0.25,
+    3.4
+   ]
+  },
+  "c_capas": {
+   "sec": "C",
+   "kind": "strata",
+   "num": "C",
+   "anchor": [
+    -5.6,
+    3,
+    -0.8
+   ],
+   "dist": 14,
+   "focus": [
+    -3,
+    1.2,
+    -1.5
+   ]
+  }
+ },
+ "objetos": [
+  {
+   "id": "cimientos",
+   "cata": "A",
+   "muros": [
+    {
+     "de": [
+      -3.45,
+      -2
+     ],
+     "a": [
+      4.9,
+      -2
+     ],
+     "huecos": [
+      {
+       "axis": "x",
+       "a": 0.1,
+       "b": 2.4,
+       "type": "door"
+      },
+      {
+       "axis": "x",
+       "a": 3.0,
+       "b": 4.1,
+       "type": "robbed"
+      }
+     ]
+    },
+    {
+     "de": [
+      -3,
+      -1.55
+     ],
+     "a": [
+      -3,
+      4.9
+     ],
+     "huecos": []
+    }
+   ],
+   "modelo": "zocalo"
+  },
+  {
+   "id": "hogar",
+   "cata": "A",
+   "at": [
+    1.2,
+    0.8
+   ],
+   "modelo": "hogar"
+  },
+  {
+   "id": "anfora",
+   "cata": "A",
+   "at": [
+    -1.6,
+    1.6
+   ],
+   "modelo": "fragmentosAnfora"
+  },
+  {
+   "id": "copa",
+   "cata": "A",
+   "at": [
+    2.6,
+    -0.6
+   ],
+   "modelo": "fragmentoCopa"
+  },
+  {
+   "id": "olla",
+   "cata": "A",
+   "at": [
+    2.05,
+    1.65
+   ],
+   "modelo": "fragmentosOlla"
+  },
+  {
+   "id": "tejas",
+   "cata": "A",
+   "at": [
+    3.0,
+    -3.6
+   ],
+   "modelo": "tejasCaidas"
+  },
+  {
+   "id": "pesas",
+   "cata": "A",
+   "at": [
+    -1.65,
+    -1.0
+   ],
+   "modelo": "pesasTelar"
+  },
+  {
+   "id": "huesos",
+   "cata": "A",
+   "at": [
+    0.0,
+    2.45
+   ],
+   "modelo": "restosComida"
+  },
+  {
+   "id": "porExcavar",
+   "cata": "A",
+   "at": [
+    3.6,
+    3.6
+   ],
+   "teja": [
+    3.35,
+    3.4
+   ],
+   "estacas": [
+    [
+     2.55,
+     2.55
+    ],
+    [
+     4.65,
+     2.55
+    ],
+    [
+     4.65,
+     4.65
+    ],
+    [
+     2.55,
+     4.65
+    ]
+   ],
+   "capaTierra": "derrumbe",
+   "modelo": "zonaPorExcavar"
+  },
+  {
+   "id": "herramientas",
+   "cata": "A",
+   "capazo": [
+    4.3,
+    1.25
+   ],
+   "paletin": [
+    2.1,
+    3.9,
+    0.9
+   ],
+   "escala": [
+    0.6,
+    4.35
+   ],
+   "modelo": "herramientas"
+  },
+  {
+   "id": null,
+   "cata": "A",
+   "muros": {
+    "id": "cimientos",
+    "cajas": [
+     [
+      -3.45,
+      0.05,
+      -2.45,
+      -1.55
+     ],
+     [
+      2.45,
+      4.9,
+      -2.45,
+      -1.55
+     ],
+     [
+      -3.45,
+      -2.55,
+      -1.55,
+      4.9
+     ]
+    ]
+   },
+   "vasijas": [
+    {
+     "perfil": "anfora",
+     "id": "anfora",
+     "at": [
+      -2.0,
+      2.75
+     ],
+     "asas": [
+      {
+       "r": 0.16,
+       "x": 0.19,
+       "y": 1.47
+      }
+     ]
+    },
+    {
+     "perfil": "kylix",
+     "id": "copa",
+     "at": [
+      3.3,
+      -0.15
+     ],
+     "asas": [
+      {
+       "r": 0.09,
+       "x": 0.47,
+       "y": 0.36,
+       "flat": true
+      }
+     ]
+    },
+    {
+     "perfil": "olla",
+     "id": "olla",
+     "at": [
+      1.2,
+      0.8
+     ],
+     "asas": [
+      {
+       "r": 0.07,
+       "x": 0.3,
+       "y": 0.44
+      }
+     ]
+    }
+   ],
+   "telar": {
+    "id": "pesas",
+    "at": [
+     -2.25,
+     -1.0
+    ]
+   },
+   "tejado": {
+    "at": [
+     0.72,
+     1.22
+    ],
+    "y": 4.75,
+    "inclinacion": 0.14,
+    "tam": [
+     8.9,
+     7.9
+    ]
+   },
+   "modelo": "reconstruccionesCasa"
+  },
+  {
+   "id": "b_muro",
+   "cata": "B",
+   "de": [
+    -4.4,
+    -1.6
+   ],
+   "a": [
+    3.6,
+    -1.6
+   ],
+   "modelo": "muroMortero"
+  },
+  {
+   "id": "b_trinchera",
+   "cata": "B",
+   "x0": 1.3,
+   "x1": 2.9,
+   "z0": -1.0,
+   "z1": 5.0,
+   "fondo": -0.25,
+   "techo": 0.66,
+   "modelo": "zanjaExpolio"
+  },
+  {
+   "id": "b_sigillata",
+   "cata": "B",
+   "at": [
+    -2.6,
+    1.5
+   ],
+   "modelo": "sigillata"
+  },
+  {
+   "id": "b_tegula",
+   "cata": "B",
+   "at": [
+    1.1,
+    -3.3
+   ],
+   "modelo": "tegulas"
+  },
+  {
+   "id": "b_moneda",
+   "cata": "B",
+   "at": [
+    3.3,
+    -0.9
+   ],
+   "modelo": "moneda"
+  },
+  {
+   "id": "b_hoyo",
+   "cata": "B",
+   "at": [
+    0.9,
+    -4.985
+   ],
+   "modelo": "hoyoEnCorte"
+  },
+  {
+   "id": "b_sondeo",
+   "cata": "B",
+   "at": [
+    -3.6,
+    3.35
+   ],
+   "capaTierra": "b_relleno",
+   "modelo": "sondeo"
+  },
+  {
+   "id": null,
+   "cata": "B",
+   "cajas": [
+    [
+     -4.4,
+     0.62,
+     -1.95,
+     3.6,
+     2.4,
+     -1.25,
+     "b_muro"
+    ],
+    [
+     1.55,
+     -0.7,
+     -0.9,
+     2.65,
+     1.6,
+     4.9,
+     "b_trinchera"
+    ]
+   ],
+   "modelo": "ideasCajas"
+  },
+  {
+   "id": "c_muro",
+   "cata": "C",
+   "de": [
+    -3.9,
+    -3.2
+   ],
+   "angulo": 0.28,
+   "largo": 7.4,
+   "modelo": "muroAlineado"
+  },
+  {
+   "id": "c_cer",
+   "cata": "C",
+   "at": [
+    1.4,
+    0.9
+   ],
+   "modelo": "ceramicaMano"
+  },
+  {
+   "id": "c_carbon",
+   "cata": "C",
+   "at": [
+    2.6,
+    2.3
+   ],
+   "modelo": "muestraCarbon"
+  },
+  {
+   "id": "c_fin",
+   "cata": "C",
+   "at": [
+    -2.2,
+    3.4
+   ],
+   "modelo": "marcaFin"
+  },
+  {
+   "id": "c_muro",
+   "cata": "C",
+   "at": [
+    1.95,
+    3.85
+   ],
+   "y": 0.42,
+   "giro": 0.691,
+   "tam": [
+    0.48,
+    0.85,
+    3.0
+   ],
+   "modelo": "ideaMuro"
+  }
+ ],
+ "cronologia": {
+  "fases": [
+   "natural",
+   "arcaico",
+   "griego",
+   "romano",
+   "expolio",
+   "campo",
+   "hoy"
+  ],
+  "colores": {
+   "natural": "#d8cdaa",
+   "arcaico": "#8a6d4a",
+   "griego": "#b0694a",
+   "romano": "#c0553f",
+   "expolio": "#7a6a86",
+   "campo": "#6f8a4a",
+   "hoy": "#4a6e8a"
+  },
+  "capasPorFase": {
+   "natural": [
+    0,
+    0
+   ],
+   "suelo": [
+    2,
+    2
+   ],
+   "derrumbe": [
+    2,
+    2
+   ],
+   "acumulada": [
+    3,
+    5
+   ],
+   "vegetal": [
+    6,
+    6
+   ],
+   "b_natural": [
+    0,
+    0
+   ],
+   "b_griego": [
+    2,
+    2
+   ],
+   "b_relleno": [
+    3,
+    3
+   ],
+   "b_sueloRom": [
+    3,
+    3
+   ],
+   "b_derrRom": [
+    4,
+    4
+   ],
+   "b_arado": [
+    5,
+    5
+   ],
+   "b_vegetal": [
+    6,
+    6
+   ],
+   "c_natural": [
+    0,
+    0
+   ],
+   "c_arcaico": [
+    1,
+    1
+   ],
+   "c_griego": [
+    2,
+    2
+   ],
+   "c_acum": [
+    3,
+    5
+   ],
+   "c_vegetal": [
+    6,
+    6
+   ]
+  },
+  "columnas": [
+   "C",
+   "A",
+   "B"
+  ],
+  "correlaciones": [
+   [
+    "C",
+    [
+     "c_griego"
+    ],
+    "A",
+    [
+     "suelo",
+     "derrumbe"
+    ],
+    "media",
+    "griego",
+    "gr"
+   ],
+   [
+    "C",
+    [
+     "c_acum"
+    ],
+    "A",
+    [
+     "acumulada"
+    ],
+    "media",
+    "campo",
+    "acum"
+   ],
+   [
+    "C",
+    [
+     "c_vegetal"
+    ],
+    "A",
+    [
+     "vegetal"
+    ],
+    "alta",
+    "hoy",
+    "veg"
+   ],
+   [
+    "C",
+    [
+     "c_natural"
+    ],
+    "A",
+    [
+     "natural"
+    ],
+    "media",
+    "natural",
+    "nat"
+   ],
+   [
+    "A",
+    [
+     "suelo",
+     "derrumbe"
+    ],
+    "B",
+    [
+     "b_griego"
+    ],
+    "media",
+    "griego",
+    "gr"
+   ],
+   [
+    "A",
+    [
+     "acumulada"
+    ],
+    "B",
+    [
+     "b_relleno",
+     "b_sueloRom",
+     "b_derrRom",
+     "b_arado"
+    ],
+    "hip",
+    "campo",
+    "acumB"
+   ],
+   [
+    "A",
+    [
+     "vegetal"
+    ],
+    "B",
+    [
+     "b_vegetal"
+    ],
+    "alta",
+    "hoy",
+    "veg"
+   ],
+   [
+    "A",
+    [
+     "natural"
+    ],
+    "B",
+    [
+     "b_natural"
+    ],
+    "alta",
+    "natural",
+    "nat"
+   ]
+  ]
+ },
+ "secuencia": {
+  "tipos": [
+   "idea",
+   "idea",
+   "layer",
+   "layer",
+   "layer",
+   "dig",
+   "dig",
+   "dig"
+  ],
+  "ventanas": {
+   "derrumbe": [
+    1,
+    2,
+    6,
+    7
+   ],
+   "acumulada": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "vegetal": [
+    3,
+    4,
+    4,
+    5
+   ]
+  }
+ },
+ "actividades": {
+  "misiones": [
+   {
+    "ok": [
+     "cimientos",
+     "tejas"
+    ]
+   },
+   {
+    "ok": [
+     "hogar",
+     "olla",
+     "anfora",
+     "huesos"
+    ]
+   },
+   {
+    "ok": [
+     "copa",
+     "anfora",
+     "olla"
+    ]
+   },
+   {
+    "ok": [],
+    "layers": [
+     "derrumbe",
+     "acumulada",
+     "vegetal"
+    ]
+   },
+   {
+    "ok": [
+     "herramientas"
+    ]
+   },
+   {
+    "ok": [
+     "porExcavar"
+    ]
+   }
+  ],
+  "ordenCapas": [
+   "vegetal",
+   "acumulada",
+   "derrumbe",
+   "suelo",
+   "natural"
+  ],
+  "cuaderno": {
+   "b_muro": {
+    "mat": [
+     "piedra"
+    ],
+    "use": "construir"
+   },
+   "b_sigillata": {
+    "mat": [
+     "barro"
+    ],
+    "use": "servir"
+   },
+   "b_tegula": {
+    "mat": [
+     "barro"
+    ],
+    "use": "construir"
+   },
+   "b_moneda": {
+    "mat": [
+     "metal"
+    ],
+    "use": "pagar"
+   },
+   "c_muro": {
+    "mat": [
+     "piedra"
+    ],
+    "use": "construir"
+   },
+   "c_cer": {
+    "mat": [
+     "barro"
+    ],
+    "use": "cocinar"
+   },
+   "c_carbon": {
+    "mat": [
+     "ceniza"
+    ],
+    "use": "datar"
+   },
+   "cimientos": {
+    "mat": [
+     "piedra"
+    ],
+    "use": "construir"
+   },
+   "hogar": {
+    "mat": [
+     "ceniza",
+     "piedra"
+    ],
+    "use": "cocinar"
+   },
+   "anfora": {
+    "mat": [
+     "barro"
+    ],
+    "use": "guardar"
+   },
+   "copa": {
+    "mat": [
+     "barro"
+    ],
+    "use": "beber"
+   },
+   "olla": {
+    "mat": [
+     "barro"
+    ],
+    "use": "cocinar"
+   },
+   "tejas": {
+    "mat": [
+     "barro"
+    ],
+    "use": "construir"
+   },
+   "pesas": {
+    "mat": [
+     "barro"
+    ],
+    "use": "tejer"
+   },
+   "huesos": {
+    "mat": [
+     "hueso"
+    ],
+    "use": "comer"
+   }
+  },
+  "retoEpocas": [
+   {
+    "f": "copa",
+    "k": "griego"
+   },
+   {
+    "f": "b_sigillata",
+    "k": "romano"
+   },
+   {
+    "f": "c_cer",
+    "k": "arcaico"
+   },
+   {
+    "f": "b_trinchera",
+    "k": "expolio"
+   },
+   {
+    "f": "b_moneda",
+    "k": "romano"
+   },
+   {
+    "f": "pesas",
+    "k": "griego"
+   },
+   {
+    "f": "b_hoyo",
+    "k": "hoy"
+   }
+  ],
+  "retoCorrelacion": [
+   {
+    "id": "b_griego",
+    "ans": [
+     "suelo",
+     "derrumbe"
+    ],
+    "ci": 4
+   },
+   {
+    "id": "c_arcaico",
+    "ans": [
+     "ninguna"
+    ]
+   },
+   {
+    "id": "b_sueloRom",
+    "ans": [
+     "ninguna"
+    ]
+   },
+   {
+    "id": "c_acum",
+    "ans": [
+     "acumulada"
+    ],
+    "ci": 1
+   },
+   {
+    "id": "b_arado",
+    "ans": [
+     "acumulada"
+    ],
+    "ci": 5
+   },
+   {
+    "id": "b_vegetal",
+    "ans": [
+     "vegetal"
+    ],
+    "ci": 6
+   },
+   {
+    "id": "trap",
+    "custom": true,
+    "opts": [
+     "si",
+     "no"
+    ],
+    "ans": [
+     "no"
+    ],
+    "hl": "c_arcaico"
+   },
+   {
+    "id": "rel",
+    "custom": true,
+    "opts": [
+     "zanja",
+     "derrumbe",
+     "igual"
+    ],
+    "ans": [
+     "zanja"
+    ],
+    "hl": "b_sueloRom"
+   }
+  ]
+ }
+}

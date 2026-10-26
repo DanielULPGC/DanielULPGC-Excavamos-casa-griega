@@ -1,0 +1,5 @@
+node_modules/
+pruebas/ultimo-resultado.json
+__pycache__/
+*.pyc
+.DS_Store

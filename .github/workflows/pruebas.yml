@@ -1,0 +1,40 @@
+name: Pruebas
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Datos JSON válidos y salidas al día con fuente/ y datos/
+        run: python3 herramientas/construir.py --comprobar
+      - name: Manifiesto de integridad
+        run: sha256sum -c --quiet MANIFIESTO-SHA256.txt
+      - name: Dependencias de prueba
+        run: |
+          npm ci --ignore-scripts
+          pip install playwright==1.63.0 pillow
+          python3 -m playwright install --with-deps chromium
+      - name: Pruebas en navegador
+        run: python3 pruebas/pruebas_navegador.py
+      - name: Guardar resultados
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-pruebas
+          path: pruebas/ultimo-resultado.json
